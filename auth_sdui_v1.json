@@ -48,6 +48,13 @@
           "badge": {
             "text": "",
             "style": "filled"
+          },
+          "logo": {
+            "height": 40,
+            "type": "image",
+            "light": "assets/ic_phynd_logo_light.svg",
+            "dark": "assets/ic_phynd_logo_dark.svg",
+            "width": 248
           }
         },
         "fields": [
@@ -302,11 +309,11 @@
             "text": ""
           },
           "logo": {
-            "height": 32,
+            "height": 40,
             "type": "image",
             "light": "assets/ic_phynd_logo_light.svg",
             "dark": "assets/ic_phynd_logo_dark.svg",
-            "width": 120
+            "width": 248
           },
           "title": "Create a Free Account"
         },
