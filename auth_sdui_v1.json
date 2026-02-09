@@ -15,8 +15,8 @@
           "dark": "#98989F"
         },
         "outline": {
-          "light": "#D1D5DC",
-          "dark": "#F5F5F5"
+          "light": "#D1D5DB",
+          "dark": "#313544"
         },
         "primary": {
           "DEFAULT": "#1B1D26",
@@ -533,5 +533,5 @@
       }
     }
   },
-  "version": 48
+  "version": 49
 }
