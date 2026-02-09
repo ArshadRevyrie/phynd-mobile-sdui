@@ -299,7 +299,11 @@
         "header": {
           "badge": {
             "style": "outlined",
-            "text": ""
+            "text": "",
+            "logo": {
+              "light": "assets/ic_phynd_logo_light.svg",
+              "dark": "assets/ic_phynd_logo_dark.svg"
+            }
           },
           "logo": {
             "height": 32,
