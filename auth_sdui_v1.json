@@ -1,0 +1,497 @@
+{
+  "ui": {
+    "initialScreen": "login",
+    "screens": {
+      "get_started": {
+        "id": "get_started",
+        "type": "form",
+        "header": {
+          "title": "Create a Free Account",
+          "badge": {
+            "text": "",
+            "style": "filled"
+          }
+        },
+        "fields": [
+          {
+            "id": "tv_code",
+            "type": "tv_code",
+            "label": "Enter the code shown on your TV if it does\nnot auto-populate.",
+            "autoPopulatedLabel": "Your TV code has been auto-populated."
+          }
+        ],
+        "social": [
+          {
+            "id": "phynd",
+            "type": "button",
+            "label": "Sign Up with PHYND",
+            "style": "primary",
+            "onPress": {
+              "type": "navigate",
+              "screen": "SignUpScreen"
+            }
+          },
+          {
+            "id": "google",
+            "type": "button",
+            "label": "Continue with Google",
+            "icon": "google",
+            "onPress": {
+              "type": "navigate",
+              "screen": "OtpScreen"
+            }
+          },
+          {
+            "id": "discord",
+            "type": "button",
+            "label": "",
+            "icon": "discord",
+            "onPress": {
+              "type": "navigate",
+              "screen": "OtpScreen"
+            }
+          },
+          {
+            "id": "facebook",
+            "type": "button",
+            "label": "Continue with Facebook",
+            "icon": "facebook",
+            "onPress": {
+              "type": "navigate",
+              "screen": "OtpScreen"
+            }
+          }
+        ],
+        "footer": {
+          "links": [
+            {
+              "text": "Closed Alpha FAQ",
+              "action": "navigate",
+              "screen": "ClosedAlphaFAQ"
+            },
+            {
+              "text": "View the Subscriber Agreement & Online Conduct Policy",
+              "action": "navigate",
+              "screen": "SubscriberAgreement"
+            }
+          ]
+        }
+      },
+      "create_account": {
+        "actions": [
+          {
+            "disabledUntilValid": false,
+            "id": "submit",
+            "label": "Create Account",
+            "onPress": {
+              "error": {
+                "toast": true
+              },
+              "method": "POST",
+              "success": {
+                "navigate": "otp"
+              },
+              "type": "api",
+              "url": "/api/v1/auth/register"
+            },
+            "style": "primary",
+            "type": "button"
+          }
+        ],
+        "fields": [
+          {
+            "error": "please enter your first name",
+            "id": "first_name",
+            "label": "First Name",
+            "placeholder": "firstname",
+            "required": true,
+            "type": "text"
+          },
+          {
+            "error": "please enter your last name",
+            "id": "last_name",
+            "label": "Last Name",
+            "placeholder": "lastname",
+            "required": true,
+            "type": "text"
+          },
+          {
+            "fields": [
+              {
+                "id": "birth_month",
+                "options": "months",
+                "placeholder": "Month",
+                "type": "dropdown"
+              },
+              {
+                "id": "birth_day",
+                "options": "days",
+                "placeholder": "Day",
+                "type": "dropdown"
+              },
+              {
+                "id": "birth_year",
+                "options": "years_18_plus",
+                "placeholder": "Year",
+                "type": "dropdown"
+              }
+            ],
+            "helperText": "must be 18+ to join PHYND",
+            "id": "birthday",
+            "label": "Birthday",
+            "required": true,
+            "type": "date_group"
+          },
+          {
+            "id": "phoneEmail",
+            "type": "phone-email",
+            "label": "Mobile Number or Email",
+            "placeholder": "mobile number or email",
+            "error": "Invalid phone number or email",
+            "required": true,
+            "fields": [
+              {
+                "id": "phone",
+                "type": "phone",
+                "label": "Mobile Number",
+                "title": "Mobile Number",
+                "placeholder": "Add your mobile number",
+                "error": "Invalid phone number",
+                "required": true
+              },
+              {
+                "id": "email",
+                "type": "email",
+                "label": "Email address",
+                "title": "Email",
+                "placeholder": "example@domain.com",
+                "error": "Invalid email format",
+                "required": true
+              }
+            ]
+          },
+          {
+            "id": "username",
+            "type": "username",
+            "label": "Create Username",
+            "placeholder": "username",
+            "error": "Invalid username",
+            "required": true
+          },
+          {
+            "avatars": [
+              {
+                "id": 1,
+                "startColor": "#0282AF",
+                "endColor": "#FF5D60",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=Oliver&radius=50"
+              },
+              {
+                "id": 2,
+                "startColor": "#D0BD16",
+                "endColor": "#D56317",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=Adrian&radius=50"
+              },
+              {
+                "id": 3,
+                "startColor": "#D016A4",
+                "endColor": "#7422E0",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 4,
+                "startColor": "#31ACFF",
+                "endColor": "#FF0A0E",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 5,
+                "startColor": "#E47E55",
+                "endColor": "#393093",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 6,
+                "startColor": "#A4D70B",
+                "endColor": "#155857",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 7,
+                "startColor": "#8080FF",
+                "endColor": "#F0B25B",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 8,
+                "startColor": "#55AA2E",
+                "endColor": "#55AA2E",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 9,
+                "startColor": "#858CA7",
+                "endColor": "#858CA7",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 10,
+                "startColor": "#8080FF",
+                "endColor": "#363658",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              }
+            ],
+            "id": "avatars",
+            "label": "Profile Color",
+            "type": "avatars"
+          },
+          {
+            "id": "terms",
+            "type": "checkbox",
+            "required": true,
+            "label": "I accept the PHYND \nTerms of Service & Privacy Policy",
+            "links": [
+              {
+                "text": "Terms of Service & Privacy Policy",
+                "url": "https://phynd.com/terms"
+              }
+            ]
+          }
+        ],
+        "header": {
+          "badge": {
+            "style": "outlined",
+            "text": ""
+          },
+          "logo": {
+            "height": 32,
+            "type": "image",
+            "url": "https://cdn.phynd.com/logo_alpha.png",
+            "width": 120
+          },
+          "title": "Create a Free Account"
+        },
+        "footer": {
+          "links": [
+            {
+              "text": "Closed Alpha FAQ",
+              "action": "navigate",
+              "screen": "alpha_faq"
+            },
+            {
+              "text": "View the Subscriber Agreement & Online Conduct Policy",
+              "action": "open_url",
+              "url": "https://phynd.com/subscriber-agreement"
+            }
+          ]
+        },
+        "id": "create_account",
+        "theme": "dark",
+        "type": "form"
+      },
+      "forgot_password": {
+        "actions": [
+          {
+            "id": "send_reset",
+            "label": "Send Reset Link",
+            "onPress": {
+              "method": "POST",
+              "success": {
+                "navigate": "login",
+                "toast": "Reset link sent"
+              },
+              "type": "api",
+              "url": "/api/v1/auth/forgot-password"
+            },
+            "style": "primary",
+            "type": "button"
+          }
+        ],
+        "fields": [
+          {
+            "id": "email",
+            "label": "Email Address",
+            "required": true,
+            "type": "email"
+          }
+        ],
+        "header": {
+          "title": "Forgot Password"
+        },
+        "id": "forgot_password",
+        "type": "form"
+      },
+      "login": {
+        "actions": [
+          {
+            "id": "login",
+            "label": "Login",
+            "onPress": {
+              "error": {
+                "toast": true
+              },
+              "method": "POST",
+              "success": {
+                "navigate": "otp"
+              },
+              "type": "api",
+              "url": "/api/v1/auth/login"
+            },
+            "style": "primary",
+            "type": "button"
+          },
+          {
+            "id": "go_to_register",
+            "label": "Create a Free Account",
+            "onPress": {
+              "screen": "create_account",
+              "type": "navigate"
+            },
+            "type": "link"
+          },
+          {
+            "id": "forgot_password",
+            "label": "Forgot Password?",
+            "onPress": {
+              "screen": "forgot_password",
+              "type": "navigate"
+            },
+            "type": "link"
+          }
+        ],
+        "fields": [
+          {
+            "id": "identifier",
+            "label": "Mobile Number or Email",
+            "required": true,
+            "type": "phone-email"
+          },
+          {
+            "id": "password",
+            "label": "Password",
+            "required": true,
+            "type": "password"
+          }
+        ],
+        "header": {
+          "logo": {
+            "height": 32,
+            "type": "image",
+            "url": "https://cdn.phynd.com/logo_alpha.png",
+            "width": 120
+          },
+          "title": "Welcome Back"
+        },
+        "id": "login",
+        "theme": "dark",
+        "type": "form"
+      },
+      "otp": {
+        "actions": [
+          {
+            "id": "verify",
+            "label": "Verify",
+            "onPress": {
+              "method": "POST",
+              "success": {
+                "navigate": "home"
+              },
+              "type": "api",
+              "url": "/api/v1/auth/verify-otp"
+            },
+            "style": "primary",
+            "type": "button"
+          }
+        ],
+        "fields": [
+          {
+            "id": "otp",
+            "length": 6,
+            "required": true,
+            "type": "otp"
+          }
+        ],
+        "header": {
+          "subtitle": "Enter the 6-digit code sent to you",
+          "title": "Verify OTP"
+        },
+        "id": "otp",
+        "type": "form"
+      },
+      "welcome_screen": {
+        "id": "welcome_screen",
+        "header": {
+          "title": "Welcome to PHYND"
+        },
+        "list_items": [
+          {
+            "id": "1",
+            "type": "profile",
+            "title": "Congrats, {{username}}!"
+          },
+          {
+            "id": "2",
+            "type": "closedAlpha",
+            "title": "Welcome to PHYND's closed Alpha"
+          },
+          {
+            "id": "3",
+            "type": "email",
+            "title": "If you'd like to add an email address to your account,\nAdd your email here.",
+            "highlightedWords": [
+              "Add your email here."
+            ]
+          },
+          {
+            "id": "4",
+            "type": "love",
+            "title": "We love feedback! Join our invite-only Discord channel to share your experience\nJoin Discord channel",
+            "highlightedWords": [
+              "Join Discord channel"
+            ]
+          },
+          {
+            "id": "5",
+            "type": "social",
+            "title": "Join us on social",
+            "social": [
+              {
+                "id": "tiktok",
+                "url": "https://www.tiktok.com/@phynd"
+              },
+              {
+                "id": "twitch",
+                "url": "https://www.twitch.tv/phynd"
+              },
+              {
+                "id": "youtube",
+                "url": "https://www.youtube.com/@phynd"
+              },
+              {
+                "id": "instagram",
+                "url": "https://www.instagram.com/phynd"
+              },
+              {
+                "id": "facebook",
+                "url": "https://www.facebook.com/phynd"
+              },
+              {
+                "id": "linkedin",
+                "url": "https://www.linkedin.com/company/phynd"
+              }
+            ]
+          },
+          {
+            "id": "6",
+            "type": "support",
+            "title": "Contact Support here",
+            "highlightedWords": [
+              "Contact Support here"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "version": 47
+}
