@@ -1,5 +1,43 @@
 {
   "ui": {
+    "theme": {
+      "colors": {
+        "background": {
+          "light": "#FFFFFF",
+          "dark": "#1B1D26"
+        },
+        "content": {
+          "light": "#1B1D26",
+          "dark": "#E0E0E0"
+        },
+        "muted": {
+          "light": "#6B7280",
+          "dark": "#98989F"
+        },
+        "outline": {
+          "light": "#D1D5DC",
+          "dark": "#F5F5F5"
+        },
+        "primary": {
+          "DEFAULT": "#1B1D26",
+          "light": "#8080FF",
+          "dark": "#454B60"
+        },
+        "button": {
+          "DEFAULT": "#8080FF",
+          "disabled": "#454B60"
+        },
+        "validation": {
+          "error": "#EF4444",
+          "error-bg-light": "#FEF2F2",
+          "error-bg-dark": "#451A1A",
+          "success": "#34A853"
+        },
+        "accent": "#8080FF",
+        "charcoal": "#313544",
+        "discord-btn": "#E0E3FF"
+      }
+    },
     "initialScreen": "login",
     "screens": {
       "get_started": {
@@ -438,17 +476,13 @@
             "id": "3",
             "type": "email",
             "title": "If you'd like to add an email address to your account,\nAdd your email here.",
-            "highlightedWords": [
-              "Add your email here."
-            ]
+            "highlightedWords": ["Add your email here."]
           },
           {
             "id": "4",
             "type": "love",
             "title": "We love feedback! Join our invite-only Discord channel to share your experience\nJoin Discord channel",
-            "highlightedWords": [
-              "Join Discord channel"
-            ]
+            "highlightedWords": ["Join Discord channel"]
           },
           {
             "id": "5",
@@ -485,13 +519,11 @@
             "id": "6",
             "type": "support",
             "title": "Contact Support here",
-            "highlightedWords": [
-              "Contact Support here"
-            ]
+            "highlightedWords": ["Contact Support here"]
           }
         ]
       }
     }
   },
-  "version": 47
+  "version": 48
 }
