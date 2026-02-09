@@ -299,16 +299,13 @@
         "header": {
           "badge": {
             "style": "outlined",
-            "text": "",
-            "logo": {
-              "light": "assets/ic_phynd_logo_light.svg",
-              "dark": "assets/ic_phynd_logo_dark.svg"
-            }
+            "text": ""
           },
           "logo": {
             "height": 32,
             "type": "image",
-            "url": "https://cdn.phynd.com/logo_alpha.png",
+            "light": "assets/ic_phynd_logo_light.svg",
+            "dark": "assets/ic_phynd_logo_dark.svg",
             "width": 120
           },
           "title": "Create a Free Account"
