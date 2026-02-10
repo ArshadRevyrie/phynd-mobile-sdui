@@ -24,7 +24,7 @@
           "dark": "#454B60"
         },
         "button": {
-          "DEFAULT": "#8080FF",
+          "DEFAULT": "#313544",
           "disabled": "#454B60",
           "light": "#313544",
           "dark": "#313544"
@@ -675,5 +675,5 @@
       }
     }
   },
-  "version": 74
+  "version": 79
 }
