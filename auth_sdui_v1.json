@@ -160,8 +160,8 @@
         ],
         "fonts": {
           "label": {
-            "family": "Roboto-Regular",
-            "size": 14,
+            "family": "Roboto-Medium",
+            "size": 22,
             "weight": "400",
             "color": {
               "light": "#6B7280",
@@ -361,7 +361,7 @@
             "id": "terms",
             "type": "checkbox",
             "required": true,
-            "label": "I accept the PHYND \nTerms of Service & Privacy Policy",
+            "label": "I accept the PHYND\nTerms of Service & Privacy Policy",
             "links": [
               {
                 "text": "Terms of Service & Privacy Policy",
