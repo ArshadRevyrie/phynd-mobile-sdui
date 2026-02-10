@@ -464,6 +464,70 @@
         "id": "otp",
         "type": "form"
       },
+      "otp_verification": {
+  "id": "otp_verification",
+  "type": "form",
+  "header": {
+    "badge": {
+      "text": "",
+      "style": "filled"
+    }
+  },
+  "fields": [
+    {
+      "id": "otp_helper_text",
+      "type": "text",
+      "label": "An OTP has been sent to your {{phoneEmailType}}",
+      "helperText": "Please enter the OTP code below",
+      "required": false
+    },
+    {
+      "id": "otp",
+      "type": "otp",
+      "label": "OTP Code",
+      "placeholder": "•",
+      "required": true,
+      "length": 6,
+      "timerDuration": 120,
+      "resendText": "Resend OTP",
+      "error": "Please enter all 6 digits"
+    }
+  ],
+  "actions": [
+    {
+      "id": "submit",
+      "type": "button",
+      "label": "Submit",
+      "style": "primary",
+      "disabledUntilValid": false,
+      "onPress": {
+        "type": "api",
+        "method": "POST",
+        "url": "/api/v1/auth/verify-otp",
+        "success": {
+          "navigate": "WelcomeScreen"
+        },
+        "error": {
+          "toast": true
+        }
+      }
+    }
+  ],
+  "footer": {
+    "links": [
+      {
+        "text": "Closed Alpha FAQ",
+        "action": "navigate",
+        "screen": "ClosedAlphaFAQ"
+      },
+      {
+        "text": "View the Subscriber Agreement & Online Conduct Policy",
+        "action": "navigate",
+        "screen": "SubscriberAgreement"
+      }
+    ]
+  }
+},
       "welcome_screen": {
         "id": "welcome_screen",
         "header": {
