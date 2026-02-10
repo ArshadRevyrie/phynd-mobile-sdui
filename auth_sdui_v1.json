@@ -378,8 +378,8 @@
           "logo": {
             "height": 40,
             "type": "image",
-            "light": "assets/ic_phynd_logo_light.svg",
-            "dark": "assets/ic_phynd_logo_dark.svg",
+            "light": "assets/ic_phynd_logo_dark.svg",
+            "dark": "assets/ic_phynd_logo_light.svg",
             "width": 248
           },
           "title": "Create a Free Account"
@@ -675,5 +675,5 @@
       }
     }
   },
-  "version": 81
+  "version": 82
 }
