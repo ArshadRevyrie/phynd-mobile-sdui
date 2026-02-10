@@ -147,8 +147,8 @@
         ],
         "fonts": {
           "label": {
-            "family": "Roboto-Regular",
-            "size": 14,
+            "family": "Roboto-Medium",
+            "size": 22,
             "weight": "400",
             "color": {
               "light": "#6B7280",
@@ -662,5 +662,5 @@
       }
     }
   },
-  "version": 66
+  "version": 69
 }
