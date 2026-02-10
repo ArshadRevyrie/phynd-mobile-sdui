@@ -3,7 +3,7 @@
     "theme": {
       "colors": {
         "background": {
-          "light": "#FFFFFF",
+          "light": "#99ddff",
           "dark": "#000000"
         },
         "content": {
@@ -16,7 +16,7 @@
         },
         "outline": {
           "light": "#D1D5DB",
-          "dark": "#313544"
+          "dark": "#b380ff"
         },
         "primary": {
           "DEFAULT": "#1B1D26",
@@ -26,8 +26,8 @@
         "button": {
           "DEFAULT": "#313544",
           "disabled": "#454B60",
-          "light": "#313544",
-          "dark": "#313544"
+          "light": "#ff0066",
+          "dark": "#ff0066"
         },
         "validation": {
           "error": "#EF4444",
@@ -142,7 +142,7 @@
           {
             "disabledUntilValid": false,
             "id": "submit",
-            "label": "Create Account",
+            "label": "Create",
             "onPress": {
               "error": {
                 "toast": true
@@ -160,12 +160,12 @@
         ],
         "fonts": {
           "label": {
-            "family": "Roboto-Regular",
-            "size": 14,
+            "family": "Roboto-BoldItalic",
+            "size": 15,
             "weight": "400",
             "color": {
-              "light": "#6B7280",
-              "dark": "#98989F"
+              "light": "#99ff99",
+              "dark": "#99ff99"
             }
           },
           "input": {
@@ -186,21 +186,21 @@
             }
           },
           "placeholder": {
-            "family": "Roboto-Regular",
-            "size": 16,
-            "weight": "400",
-            "color": {
-              "light": "#6B7280",
-              "dark": "#98989F"
-            }
-          },
-          "helperText": {
-            "family": "Roboto-Regular",
+            "family": "Roboto-SemiBold",
             "size": 12,
             "weight": "400",
             "color": {
-              "light": "#6B7280",
-              "dark": "#98989F"
+              "light": "#ffff66",
+              "dark": "#ffff66"
+            }
+          },
+          "helperText": {
+            "family": "Roboto-Bold",
+            "size": 14,
+            "weight": "400",
+            "color": {
+              "light": "#ff9900",
+              "dark": "#ff9900"
             }
           },
           "error": {
@@ -216,14 +216,6 @@
             "id": "first_name",
             "label": "First Name",
             "placeholder": "firstname",
-            "required": true,
-            "type": "text"
-          },
-          {
-            "error": "please enter your last name",
-            "id": "last_name",
-            "label": "Last Name",
-            "placeholder": "lastname",
             "required": true,
             "type": "text"
           },
@@ -382,7 +374,7 @@
             "dark": "assets/ic_phynd_logo_dark.svg",
             "width": 248
           },
-          "title": "Create a Free Account"
+          "title": "Create an Account"
         },
         "footer": {
           "links": [
@@ -675,5 +667,5 @@
       }
     }
   },
-  "version": 88
+  "version": 89
 }
