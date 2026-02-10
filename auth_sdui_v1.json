@@ -4,7 +4,7 @@
       "colors": {
         "background": {
           "light": "#FFFFFF",
-          "dark": "#000000"
+          "dark": "#1B1D26"
         },
         "content": {
           "light": "#1B1D26",
@@ -160,8 +160,8 @@
         ],
         "fonts": {
           "label": {
-            "family": "Roboto-Medium",
-            "size": 22,
+            "family": "Roboto-Regular",
+            "size": 14,
             "weight": "400",
             "color": {
               "light": "#6B7280",
@@ -378,8 +378,8 @@
           "logo": {
             "height": 40,
             "type": "image",
-            "light": "assets/ic_phynd_logo_dark.svg",
-            "dark": "assets/ic_phynd_logo_light.svg",
+            "light": "assets/ic_phynd_logo_light.svg",
+            "dark": "assets/ic_phynd_logo_dark.svg",
             "width": 248
           },
           "title": "Create a Free Account"
@@ -675,5 +675,5 @@
       }
     }
   },
-  "version": 83
+  "version": 84
 }
