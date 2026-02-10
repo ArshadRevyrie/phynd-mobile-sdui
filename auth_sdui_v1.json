@@ -376,11 +376,11 @@
             "text": ""
           },
           "logo": {
-            "height": 40,
+            "height": 60,
             "type": "image",
             "light": "assets/ic_phynd_logo_light.svg",
-            "dark": "assets/ic_phynd_logo_dark.svg",
-            "width": 248
+            "dark": "assets/dummy_logo.png",
+            "width": 120
           },
           "title": "Create a Free Account"
         },
@@ -675,5 +675,5 @@
       }
     }
   },
-  "version": 90
+  "version": 91
 }
