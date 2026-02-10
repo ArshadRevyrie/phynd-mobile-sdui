@@ -4,7 +4,7 @@
       "colors": {
         "background": {
           "light": "#FFFFFF",
-          "dark": "#000000"
+          "dark": "#1B1D26"
         },
         "content": {
           "light": "#1B1D26",
@@ -121,7 +121,7 @@
           {
             "disabledUntilValid": false,
             "id": "submit",
-            "label": "Create Account",
+            "label": "Create",
             "onPress": {
               "error": {
                 "toast": true
@@ -199,14 +199,6 @@
             "type": "text"
           },
           {
-            "error": "please enter your last name",
-            "id": "last_name",
-            "label": "Last Name",
-            "placeholder": "lastname",
-            "required": true,
-            "type": "text"
-          },
-          {
             "fields": [
               {
                 "id": "birth_month",
@@ -229,7 +221,7 @@
             ],
             "helperText": "must be 18+ to join PHYND",
             "id": "birthday",
-            "label": "Birthday",
+            "label": "Date of Birth",
             "required": true,
             "type": "date_group"
           },
@@ -264,7 +256,7 @@
           {
             "id": "username",
             "type": "username",
-            "label": "Create Username",
+            "label": "Username",
             "placeholder": "username",
             "error": "Invalid username",
             "required": true
@@ -330,6 +322,18 @@
                 "startColor": "#8080FF",
                 "endColor": "#363658",
                 "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 11,
+                "startColor": "#FFFFFF",
+                "endColor": "#000000",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 12,
+                "startColor": "#cc0066",
+                "endColor": "#99ff99",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
               }
             ],
             "id": "avatars",
@@ -361,7 +365,7 @@
             "dark": "assets/ic_phynd_logo_dark.svg",
             "width": 248
           },
-          "title": "Create a Free Account"
+          "title": "Create an Account"
         },
         "footer": {
           "links": [
@@ -654,5 +658,5 @@
       }
     }
   },
-  "version": 85
+  "version": 86
 }
