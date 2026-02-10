@@ -59,7 +59,7 @@
         "id": "get_started",
         "type": "form",
         "header": {
-          "title": "Create an Account",
+          "title": "Create a Free Account",
           "badge": {
             "text": "",
             "style": "filled"
@@ -76,7 +76,7 @@
           {
             "id": "tv_code",
             "type": "tv_code",
-            "label": "Enter the code shown on your TV",
+            "label": "Enter the code shown on your TV if it does\nnot auto-populate.",
             "autoPopulatedLabel": "Your TV code has been auto-populated."
           }
         ],
@@ -84,7 +84,7 @@
           {
             "id": "phynd",
             "type": "button",
-            "label": "SignUp - PHYND",
+            "label": "Sign Up with PHYND",
             "style": "primary",
             "onPress": {
               "type": "navigate",
@@ -94,8 +94,18 @@
           {
             "id": "google",
             "type": "button",
-            "label": "SignIn with Google",
+            "label": "Continue with Google",
             "icon": "google",
+            "onPress": {
+              "type": "navigate",
+              "screen": "OtpScreen"
+            }
+          },
+          {
+            "id": "discord",
+            "type": "button",
+            "label": "",
+            "icon": "discord",
             "onPress": {
               "type": "navigate",
               "screen": "OtpScreen"
@@ -113,7 +123,18 @@
           }
         ],
         "footer": {
-          "links": []
+          "links": [
+            {
+              "text": "Closed Alpha FAQ",
+              "action": "navigate",
+              "screen": "ClosedAlphaFAQ"
+            },
+            {
+              "text": "View the Subscriber Agreement & Online Conduct Policy",
+              "action": "navigate",
+              "screen": "SubscriberAgreement"
+            }
+          ]
         }
       },
       "create_account": {
@@ -121,7 +142,7 @@
           {
             "disabledUntilValid": false,
             "id": "submit",
-            "label": "Create",
+            "label": "Create Account",
             "onPress": {
               "error": {
                 "toast": true
@@ -199,6 +220,14 @@
             "type": "text"
           },
           {
+            "error": "please enter your last name",
+            "id": "last_name",
+            "label": "Last Name",
+            "placeholder": "lastname",
+            "required": true,
+            "type": "text"
+          },
+          {
             "fields": [
               {
                 "id": "birth_month",
@@ -221,7 +250,7 @@
             ],
             "helperText": "must be 18+ to join PHYND",
             "id": "birthday",
-            "label": "Date of Birth",
+            "label": "Birthday",
             "required": true,
             "type": "date_group"
           },
@@ -256,7 +285,7 @@
           {
             "id": "username",
             "type": "username",
-            "label": "Username",
+            "label": "Create Username",
             "placeholder": "username",
             "error": "Invalid username",
             "required": true
@@ -322,18 +351,6 @@
                 "startColor": "#8080FF",
                 "endColor": "#363658",
                 "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
-              },
-              {
-                "id": 11,
-                "startColor": "#FFFFFF",
-                "endColor": "#000000",
-                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
-              },
-              {
-                "id": 12,
-                "startColor": "#cc0066",
-                "endColor": "#99ff99",
-                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
               }
             ],
             "id": "avatars",
@@ -365,7 +382,7 @@
             "dark": "assets/ic_phynd_logo_dark.svg",
             "width": 248
           },
-          "title": "Create an Account"
+          "title": "Create a Free Account"
         },
         "footer": {
           "links": [
@@ -658,5 +675,5 @@
       }
     }
   },
-  "version": 86
+  "version": 87
 }
