@@ -42,6 +42,19 @@
     },
     "initialScreen": "login",
     "screens": {
+      "splash_screen": {
+        "id": "splash_screen",
+        "type": "splash",
+        "content": {
+          "logo": {
+            "type": "image",
+            "light": "assets/ic_phynd_logo_light.svg",
+            "dark": "assets/ic_phynd_logo_dark.svg",
+            "width": 248,
+            "height": 40
+          }
+        }
+      },
       "get_started": {
         "id": "get_started",
         "type": "form",
@@ -662,5 +675,5 @@
       }
     }
   },
-  "version": 70
+  "version": 74
 }
