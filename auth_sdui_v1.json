@@ -4,7 +4,7 @@
       "colors": {
         "background": {
           "light": "#FFFFFF",
-          "dark": "#1B1D26"
+          "dark": "#000000"
         },
         "content": {
           "light": "#1B1D26",
@@ -59,7 +59,7 @@
         "id": "get_started",
         "type": "form",
         "header": {
-          "title": "Create a Free Account",
+          "title": "Create an Account",
           "badge": {
             "text": "",
             "style": "filled"
@@ -76,7 +76,7 @@
           {
             "id": "tv_code",
             "type": "tv_code",
-            "label": "Enter the code shown on your TV if it does\nnot auto-populate.",
+            "label": "Enter the code shown on your TV",
             "autoPopulatedLabel": "Your TV code has been auto-populated."
           }
         ],
@@ -84,7 +84,7 @@
           {
             "id": "phynd",
             "type": "button",
-            "label": "Sign Up with PHYND",
+            "label": "SignUp - PHYND",
             "style": "primary",
             "onPress": {
               "type": "navigate",
@@ -94,18 +94,8 @@
           {
             "id": "google",
             "type": "button",
-            "label": "Continue with Google",
+            "label": "SignIn with Google",
             "icon": "google",
-            "onPress": {
-              "type": "navigate",
-              "screen": "OtpScreen"
-            }
-          },
-          {
-            "id": "discord",
-            "type": "button",
-            "label": "",
-            "icon": "discord",
             "onPress": {
               "type": "navigate",
               "screen": "OtpScreen"
@@ -123,18 +113,7 @@
           }
         ],
         "footer": {
-          "links": [
-            {
-              "text": "Closed Alpha FAQ",
-              "action": "navigate",
-              "screen": "ClosedAlphaFAQ"
-            },
-            {
-              "text": "View the Subscriber Agreement & Online Conduct Policy",
-              "action": "navigate",
-              "screen": "SubscriberAgreement"
-            }
-          ]
+          "links": []
         }
       },
       "create_account": {

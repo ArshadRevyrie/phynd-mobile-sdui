@@ -4,7 +4,7 @@
       "colors": {
         "background": {
           "light": "#FFFFFF",
-          "dark": "#000000"
+          "dark": "#1B1D26"
         },
         "content": {
           "light": "#1B1D26",
@@ -24,8 +24,10 @@
           "dark": "#454B60"
         },
         "button": {
-          "DEFAULT": "#8080FF",
-          "disabled": "#454B60"
+          "DEFAULT": "#313544",
+          "disabled": "#454B60",
+          "light": "#313544",
+          "dark": "#313544"
         },
         "validation": {
           "error": "#EF4444",
@@ -40,6 +42,19 @@
     },
     "initialScreen": "login",
     "screens": {
+      "splash_screen": {
+        "id": "splash_screen",
+        "type": "splash",
+        "content": {
+          "logo": {
+            "type": "image",
+            "light": "assets/ic_phynd_logo_light.svg",
+            "dark": "assets/ic_phynd_logo_dark.svg",
+            "width": 248,
+            "height": 40
+          }
+        }
+      },
       "get_started": {
         "id": "get_started",
         "type": "form",
@@ -143,6 +158,58 @@
             "type": "button"
           }
         ],
+        "fonts": {
+          "label": {
+            "family": "Roboto-Regular",
+            "size": 14,
+            "weight": "400",
+            "color": {
+              "light": "#6B7280",
+              "dark": "#98989F"
+            }
+          },
+          "input": {
+            "family": "Roboto-Regular",
+            "size": 16,
+            "weight": "400",
+            "color": {
+              "light": "#1B1D26",
+              "dark": "#E0E0E0"
+            },
+            "backgroundColor": {
+              "light": "transparent",
+              "dark": "transparent"
+            },
+            "errorBackgroundColor": {
+              "light": "#FEF2F2",
+              "dark": "#451A1A"
+            }
+          },
+          "placeholder": {
+            "family": "Roboto-Regular",
+            "size": 16,
+            "weight": "400",
+            "color": {
+              "light": "#6B7280",
+              "dark": "#98989F"
+            }
+          },
+          "helperText": {
+            "family": "Roboto-Regular",
+            "size": 12,
+            "weight": "400",
+            "color": {
+              "light": "#6B7280",
+              "dark": "#98989F"
+            }
+          },
+          "error": {
+            "family": "Roboto-Regular",
+            "size": 12,
+            "weight": "400",
+            "color": "#EF4444"
+          }
+        },
         "fields": [
           {
             "error": "please enter your first name",
@@ -294,7 +361,7 @@
             "id": "terms",
             "type": "checkbox",
             "required": true,
-            "label": "I accept the PHYND \nTerms of Service & Privacy Policy",
+            "label": "I accept the PHYND\nTerms of Service & Privacy Policy",
             "links": [
               {
                 "text": "Terms of Service & Privacy Policy",
@@ -531,6 +598,17 @@
       "welcome_screen": {
         "id": "welcome_screen",
         "header": {
+          "badge": {
+            "style": "outlined",
+            "text": ""
+          },
+          "logo": {
+            "height": 40,
+            "type": "image",
+            "light": "assets/ic_phynd_logo_light.svg",
+            "dark": "assets/ic_phynd_logo_dark.svg",
+            "width": 248
+          },
           "title": "Welcome to PHYND"
         },
         "list_items": [
@@ -548,17 +626,13 @@
             "id": "3",
             "type": "email",
             "title": "If you'd like to add an email address to your account,\nAdd your email here.",
-            "highlightedWords": [
-              "Add your email here."
-            ]
+            "highlightedWords": ["Add your email here."]
           },
           {
             "id": "4",
             "type": "love",
             "title": "We love feedback! Join our invite-only Discord channel to share your experience\nJoin Discord channel",
-            "highlightedWords": [
-              "Join Discord channel"
-            ]
+            "highlightedWords": ["Join Discord channel"]
           },
           {
             "id": "5",
@@ -595,13 +669,11 @@
             "id": "6",
             "type": "support",
             "title": "Contact Support here",
-            "highlightedWords": [
-              "Contact Support here"
-            ]
+            "highlightedWords": ["Contact Support here"]
           }
         ]
       }
     }
   },
-  "version": 76
+  "version": 84
 }
