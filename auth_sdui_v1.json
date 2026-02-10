@@ -3,8 +3,8 @@
     "theme": {
       "colors": {
         "background": {
-          "light": "#FFFFFF",
-          "dark": "#1B1D26"
+          "light": "#ADD8E6",
+          "dark": "#000000"
         },
         "content": {
           "light": "#1B1D26",
@@ -675,5 +675,5 @@
       }
     }
   },
-  "version": 91
+  "version": 92
 }
