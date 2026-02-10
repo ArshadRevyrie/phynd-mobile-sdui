@@ -25,7 +25,9 @@
         },
         "button": {
           "DEFAULT": "#8080FF",
-          "disabled": "#454B60"
+          "disabled": "#454B60",
+          "light": "#313544",
+          "dark": "#313544"
         },
         "validation": {
           "error": "#EF4444",
@@ -143,6 +145,58 @@
             "type": "button"
           }
         ],
+        "fonts": {
+          "label": {
+            "family": "Roboto-Regular",
+            "size": 14,
+            "weight": "400",
+            "color": {
+              "light": "#6B7280",
+              "dark": "#98989F"
+            }
+          },
+          "input": {
+            "family": "Roboto-Regular",
+            "size": 16,
+            "weight": "400",
+            "color": {
+              "light": "#1B1D26",
+              "dark": "#E0E0E0"
+            },
+            "backgroundColor": {
+              "light": "transparent",
+              "dark": "transparent"
+            },
+            "errorBackgroundColor": {
+              "light": "#FEF2F2",
+              "dark": "#451A1A"
+            }
+          },
+          "placeholder": {
+            "family": "Roboto-Regular",
+            "size": 16,
+            "weight": "400",
+            "color": {
+              "light": "#6B7280",
+              "dark": "#98989F"
+            }
+          },
+          "helperText": {
+            "family": "Roboto-Regular",
+            "size": 12,
+            "weight": "400",
+            "color": {
+              "light": "#6B7280",
+              "dark": "#98989F"
+            }
+          },
+          "error": {
+            "family": "Roboto-Regular",
+            "size": 12,
+            "weight": "400",
+            "color": "#EF4444"
+          }
+        },
         "fields": [
           {
             "error": "please enter your first name",
@@ -465,72 +519,83 @@
         "type": "form"
       },
       "otp_verification": {
-  "id": "otp_verification",
-  "type": "form",
-  "header": {
-    "badge": {
-      "text": "",
-      "style": "filled"
-    }
-  },
-  "fields": [
-    {
-      "id": "otp_helper_text",
-      "type": "text",
-      "label": "An OTP has been sent to your {{phoneEmailType}}",
-      "helperText": "Please enter the OTP code below",
-      "required": false
-    },
-    {
-      "id": "otp",
-      "type": "otp",
-      "label": "OTP Code",
-      "placeholder": "•",
-      "required": true,
-      "length": 6,
-      "timerDuration": 120,
-      "resendText": "Resend OTP",
-      "error": "Please enter all 6 digits"
-    }
-  ],
-  "actions": [
-    {
-      "id": "submit",
-      "type": "button",
-      "label": "Submit",
-      "style": "primary",
-      "disabledUntilValid": false,
-      "onPress": {
-        "type": "api",
-        "method": "POST",
-        "url": "/api/v1/auth/verify-otp",
-        "success": {
-          "navigate": "WelcomeScreen"
+        "id": "otp_verification",
+        "type": "form",
+        "header": {
+          "badge": {
+            "text": "",
+            "style": "filled"
+          }
         },
-        "error": {
-          "toast": true
+        "fields": [
+          {
+            "id": "otp_helper_text",
+            "type": "text",
+            "label": "An OTP has been sent to your {{phoneEmailType}}",
+            "helperText": "Please enter the OTP code below",
+            "required": false
+          },
+          {
+            "id": "otp",
+            "type": "otp",
+            "label": "OTP Code",
+            "placeholder": "•",
+            "required": true,
+            "length": 6,
+            "timerDuration": 120,
+            "resendText": "Resend OTP",
+            "error": "Please enter all 6 digits"
+          }
+        ],
+        "actions": [
+          {
+            "id": "submit",
+            "type": "button",
+            "label": "Submit",
+            "style": "primary",
+            "disabledUntilValid": false,
+            "onPress": {
+              "type": "api",
+              "method": "POST",
+              "url": "/api/v1/auth/verify-otp",
+              "success": {
+                "navigate": "WelcomeScreen"
+              },
+              "error": {
+                "toast": true
+              }
+            }
+          }
+        ],
+        "footer": {
+          "links": [
+            {
+              "text": "Closed Alpha FAQ",
+              "action": "navigate",
+              "screen": "ClosedAlphaFAQ"
+            },
+            {
+              "text": "View the Subscriber Agreement & Online Conduct Policy",
+              "action": "navigate",
+              "screen": "SubscriberAgreement"
+            }
+          ]
         }
-      }
-    }
-  ],
-  "footer": {
-    "links": [
-      {
-        "text": "Closed Alpha FAQ",
-        "action": "navigate",
-        "screen": "ClosedAlphaFAQ"
       },
-      {
-        "text": "View the Subscriber Agreement & Online Conduct Policy",
-        "action": "navigate",
-        "screen": "SubscriberAgreement"
-      }
-    ]
-  }
-},
       "welcome_screen": {
         "id": "welcome_screen",
         "header": {
+          "badge": {
+            "style": "outlined",
+            "text": ""
+          },
+          "logo": {
+            "height": 40,
+            "type": "image",
+            "light": "assets/ic_phynd_logo_light.svg",
+            "dark": "assets/ic_phynd_logo_dark.svg",
+            "width": 248
+          },
           "title": "Welcome to PHYND"
         },
         "list_items": [
@@ -597,5 +662,5 @@
       }
     }
   },
-  "version": 65
+  "version": 66
 }
