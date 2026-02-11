@@ -15,8 +15,12 @@
           "dark": "#98989F"
         },
         "outline": {
-          "light": "#D1D5DB",
-          "dark": "#ff0066"
+          "active-light": "#D1D5DC",
+          "active-dark": "#8080FF",
+          "inactive-light": "#ff0066",
+          "inactive-dark": "#8080FF",
+          "light": "#D1D5DC",
+          "dark": "#F5F5F5"
         },
         "primary": {
           "DEFAULT": "#1B1D26",
@@ -207,7 +211,7 @@
             "family": "Roboto-Regular",
             "size": 12,
             "weight": "400",
-            "color": "#EF4444"
+            "color": "#ff0066"
           }
         },
         "fields": [
@@ -667,5 +671,5 @@
       }
     }
   },
-  "version": 96
+  "version": 97
 }
