@@ -46,7 +46,7 @@
             "fonts": {
                 "label": {
                     "family": "Roboto-Regular",
-                    "style": "normal",
+                    "style": "italic",
                     "size": 14,
                     "weight": "400",
                     "color": {
@@ -76,7 +76,7 @@
                     "family": "Roboto-Regular",
                     "size": 16,
                     "weight": "400",
-                    "style": "normal",
+                    "style": "italic",
                     "color": {
                         "light": "#6B7280",
                         "dark": "#98989F"
