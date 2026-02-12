@@ -108,6 +108,26 @@
                         "light": "#FFFFFF",
                         "dark": "#FFFFFF"
                     }
+                },
+                "footer": {
+                    "family": "Roboto-Regular",
+                    "size": 12,
+                    "weight": "400",
+                    "style": "normal",
+                    "color": {
+                        "light": "#313544",
+                        "dark": "#E0E0E0"
+                    }
+                },
+                "headerTitle": {
+                    "family": "Roboto-Bold",
+                    "size": 24,
+                    "weight": "700",
+                    "style": "normal",
+                    "color": {
+                        "light": "#1B1D26",
+                        "dark": "#E0E0E0"
+                    }
                 }
             }
         },
@@ -737,5 +757,5 @@
             }
         }
     },
-    "version": 101
+    "version": 103
 }
