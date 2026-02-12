@@ -3,8 +3,8 @@
     "theme": {
       "colors": {
         "background": {
-          "light": "#FFFFFF",
-          "dark": "#1B1D26"
+          "light": "#ffe6cc",
+          "dark": "#7070db"
         },
         "content": {
           "light": "#1B1D26",
@@ -139,8 +139,8 @@
         "content": {
           "logo": {
             "type": "image",
-            "light": "assets/ic_phynd_logo_light.svg",
-            "dark": "assets/ic_phynd_logo_dark.svg",
+            "light": "assets/kerala_logo.png",
+            "dark": "assets/kerala_logo.png",
             "width": 248,
             "height": 40
           }
@@ -150,7 +150,7 @@
         "id": "get_started",
         "type": "form",
         "header": {
-          "title": "Create a Free Account",
+          "title": "Create an Account",
           "badge": {
             "text": "",
             "style": "filled"
@@ -158,8 +158,8 @@
           "logo": {
             "height": 40,
             "type": "image",
-            "light": "assets/ic_phynd_logo_light.svg",
-            "dark": "assets/ic_phynd_logo_dark.svg",
+            "light": "assets/kerala_logo.png",
+            "dark": "assets/kerala_logo.png",
             "width": 248
           }
         },
@@ -167,7 +167,7 @@
           {
             "id": "tv_code",
             "type": "tv_code",
-            "label": "Enter the code shown on your TV if it does\nnot auto-populate.",
+            "label": "Enter the code shown on your TV",
             "autoPopulatedLabel": "Your TV code has been auto-populated."
           }
         ],
@@ -175,7 +175,7 @@
           {
             "id": "phynd",
             "type": "button",
-            "label": "Sign Up with PHYND",
+            "label": "Sign Up - PHYND",
             "style": "primary",
             "onPress": {
               "type": "navigate",
@@ -185,18 +185,8 @@
           {
             "id": "google",
             "type": "button",
-            "label": "Continue with Google",
+            "label": "SignIn with Google",
             "icon": "google",
-            "onPress": {
-              "type": "navigate",
-              "screen": "OtpScreen"
-            }
-          },
-          {
-            "id": "discord",
-            "type": "button",
-            "label": "",
-            "icon": "discord",
             "onPress": {
               "type": "navigate",
               "screen": "OtpScreen"
@@ -214,18 +204,7 @@
           }
         ],
         "footer": {
-          "links": [
-            {
-              "text": "Closed Alpha FAQ",
-              "action": "navigate",
-              "screen": "ClosedAlphaFAQ"
-            },
-            {
-              "text": "View the Subscriber Agreement & Online Conduct Policy",
-              "action": "navigate",
-              "screen": "SubscriberAgreement"
-            }
-          ]
+          "links": []
         }
       },
       "create_account": {
@@ -233,7 +212,7 @@
           {
             "disabledUntilValid": false,
             "id": "submit",
-            "label": "Create Account",
+            "label": "Create",
             "onPress": {
               "error": {
                 "toast": true
@@ -255,14 +234,6 @@
             "id": "first_name",
             "label": "First Name",
             "placeholder": "firstname",
-            "required": true,
-            "type": "text"
-          },
-          {
-            "error": "please enter your last name",
-            "id": "last_name",
-            "label": "Last Name",
-            "placeholder": "lastname",
             "required": true,
             "type": "text"
           },
@@ -289,7 +260,7 @@
             ],
             "helperText": "must be 18+ to join PHYND",
             "id": "birthday",
-            "label": "Birthday",
+            "label": "Date of birth",
             "required": true,
             "type": "date_group"
           },
@@ -324,7 +295,7 @@
           {
             "id": "username",
             "type": "username",
-            "label": "Create Username",
+            "label": "Username",
             "placeholder": "username",
             "error": "Invalid username",
             "required": true
@@ -390,6 +361,18 @@
                 "startColor": "#8080FF",
                 "endColor": "#363658",
                 "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 11,
+                "startColor": "#669900",
+                "endColor": "#669900",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 12,
+                "startColor": "#ff00ff",
+                "endColor": "#ff80ff",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
               }
             ],
             "id": "avatars",
@@ -417,8 +400,8 @@
           "logo": {
             "height": 40,
             "type": "image",
-            "light": "assets/ic_phynd_logo_light.svg",
-            "dark": "assets/ic_phynd_logo_dark.svg",
+            "light": "assets/kerala_logo.png",
+            "dark": "assets/kerala_logo.png",
             "width": 248
           },
           "title": {
@@ -427,7 +410,7 @@
             "weight": "400",
             "text": "Create an Account",
             "color": {
-              "light": "#ffffff",
+              "light": "#1B1D26",
               "dark": "#ffffff"
             }
           },
@@ -455,7 +438,7 @@
               }
             ],
             "color": {
-              "light": "#ffffff",
+              "light": "#1B1D26",
               "dark": "#ffffff"
             }
           }
@@ -751,5 +734,5 @@
       }
     }
   },
-  "version": 113
+  "version": 115
 }
