@@ -111,7 +111,7 @@
                 },
                 "footer": {
                     "family": "Roboto-Regular",
-                    "size": 12,
+                    "size": 24,
                     "weight": "400",
                     "style": "italic",
                     "color": {
@@ -757,5 +757,5 @@
             }
         }
     },
-    "version": 105
+    "version": 106
 }
