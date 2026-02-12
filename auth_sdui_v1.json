@@ -167,7 +167,7 @@
             "family": "Roboto-Regular",
             "size": 10,
             "weight": "400",
-            "style": "normal",
+            "style": "italic",
             "color": {
               "light": "#99ff99",
               "dark": "#99ff99"
@@ -227,7 +227,10 @@
             "size": 12,
             "weight": "400",
             "style": "normal",
-            "color": "#ff0066"
+            "color": {
+              "light": "#ff0066",
+              "dark": "#ffffff"
+            }
           }
         },
         "fields": [
@@ -725,5 +728,5 @@
       }
     }
   },
-  "version": 100
+  "version": 101
 }
