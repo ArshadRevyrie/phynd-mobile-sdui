@@ -1,3 +1,6 @@
+es ago
+
+Review
 {
     "ui": {
         "theme": {
@@ -46,8 +49,8 @@
             "fonts": {
                 "label": {
                     "family": "Roboto-Regular",
-                    "style": "italic",
-                    "size": 28,
+                    "style": "normal",
+                    "size": 14,
                     "weight": "400",
                     "color": {
                         "light": "#6B7280",
@@ -76,7 +79,7 @@
                     "family": "Roboto-Regular",
                     "size": 16,
                     "weight": "400",
-                    "style": "italic",
+                    "style": "normal",
                     "color": {
                         "light": "#6B7280",
                         "dark": "#98989F"
@@ -111,9 +114,9 @@
                 },
                 "footer": {
                     "family": "Roboto-Regular",
-                    "size": 24,
+                    "size": 12,
                     "weight": "400",
-                    "style": "italic",
+                    "style": "normal",
                     "color": {
                         "light": "#313544",
                         "dark": "#E0E0E0"
@@ -175,7 +178,7 @@
                     {
                         "id": "phynd",
                         "type": "button",
-                        "label": "Sign Up - PHYND",
+                        "label": "Sign Up with PHYND",
                         "style": "primary",
                         "onPress": {
                             "type": "navigate",
@@ -757,5 +760,5 @@
             }
         }
     },
-    "version": 108
+    "version": 109
 }
