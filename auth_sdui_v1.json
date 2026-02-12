@@ -180,6 +180,16 @@
               "light": "#1B1D26",
               "dark": "#E0E0E0"
             },
+            "button": {
+              "family": "Roboto-Bold",
+              "size": 22,
+              "height": 52,
+              "borderRadius": 50,
+              "color": {
+                "light": "#ff0066",
+                "dark": "#ffffff"
+              }
+            },
             "backgroundColor": {
               "light": "transparent",
               "dark": "transparent"
@@ -671,5 +681,5 @@
       }
     }
   },
-  "version": 97
+  "version": 98
 }
