@@ -113,7 +113,7 @@
                     "family": "Roboto-Regular",
                     "size": 12,
                     "weight": "400",
-                    "style": "normal",
+                    "style": "italic",
                     "color": {
                         "light": "#313544",
                         "dark": "#E0E0E0"
@@ -757,5 +757,5 @@
             }
         }
     },
-    "version": 103
+    "version": 105
 }
