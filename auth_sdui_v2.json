@@ -111,9 +111,9 @@
         },
         "footer": {
           "family": "Roboto-Regular",
-          "size": 16,
+          "size": 12,
           "weight": "400",
-          "style": "italic",
+          "style": "normal",
           "color": {
             "light": "#313544",
             "dark": "#E0E0E0"
@@ -432,10 +432,10 @@
             }
           },
           "secondaryTitle": {
-            "family": "Roboto-Bold",
+            "family": "Roboto-Regular",
             "size": 16,
             "weight": "400",
-            "style": "italic",
+            "style": "normal",
             "text": [
               {
                 "type": "phynd",
@@ -751,5 +751,5 @@
       }
     }
   },
-  "version": 112
+  "version": 113
 }
