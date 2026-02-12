@@ -435,7 +435,7 @@
             "family": "Roboto-Bold",
             "size": 16,
             "weight": "400",
-            "style": "Italic",
+            "style": "italic",
             "text": [
               {
                 "type": "phynd",
@@ -751,5 +751,5 @@
       }
     }
   },
-  "version": 111
+  "version": 112
 }
