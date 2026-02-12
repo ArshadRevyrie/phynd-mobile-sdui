@@ -175,7 +175,7 @@
                     {
                         "id": "phynd",
                         "type": "button",
-                        "label": "Sign Up with PHYND",
+                        "label": "Sign Up - PHYND",
                         "style": "primary",
                         "onPress": {
                             "type": "navigate",
@@ -757,5 +757,5 @@
             }
         }
     },
-    "version": 106
+    "version": 107
 }
