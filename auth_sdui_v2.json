@@ -104,7 +104,7 @@
           "size": 16,
           "weight": "500",
           "style": "normal",
-          "borderRadius": 50,
+          "borderRadius": 500,
           "height": 48,
           "color": {
             "light": "#FFFFFF",
@@ -765,5 +765,5 @@
       }
     }
   },
-  "version": 117
+  "version": 118
 }
