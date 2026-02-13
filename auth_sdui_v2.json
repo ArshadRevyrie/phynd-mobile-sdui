@@ -131,6 +131,13 @@
             "dark": "#E0E0E0"
           }
         }
+      },
+      "logo": {
+        "height": 40,
+        "type": "image",
+        "light": "assets/dummy_logo.png",
+        "dark": "assets/dummy_logo.png",
+        "width": 248
       }
     },
     "initialScreen": "login",
@@ -429,9 +436,6 @@
           },
           "logo": {
             "height": 40,
-            "type": "image",
-            "light": "assets/ic_phynd_logo_light.svg",
-            "dark": "assets/ic_phynd_logo_dark.svg",
             "width": 248
           },
           "title": {
@@ -765,5 +769,5 @@
       }
     }
   },
-  "version": 118
+  "version": 119
 }
