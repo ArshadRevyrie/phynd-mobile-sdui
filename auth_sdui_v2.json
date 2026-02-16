@@ -55,13 +55,13 @@
           }
         },
         "input": {
-          "family": "Roboto-Regular",
-          "size": 16,
+          "family": "Roboto-Bold",
+          "size": 18,
           "weight": "400",
-          "style": "normal",
+          "style": "italic",
           "color": {
-            "light": "#1B1D26",
-            "dark": "#E0E0E0"
+            "light": "#00a3cc",
+            "dark": "#4ddbff"
           },
           "backgroundColor": {
             "light": "transparent",
