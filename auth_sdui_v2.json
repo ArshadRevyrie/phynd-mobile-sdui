@@ -147,9 +147,6 @@
         "type": "splash",
         "content": {
           "logo": {
-            "type": "image",
-            "light": "assets/ic_phynd_logo_light.svg",
-            "dark": "assets/ic_phynd_logo_dark.svg",
             "width": 248,
             "height": 40
           }
@@ -176,9 +173,6 @@
           },
           "logo": {
             "height": 40,
-            "type": "image",
-            "light": "assets/ic_phynd_logo_light.svg",
-            "dark": "assets/ic_phynd_logo_dark.svg",
             "width": 248
           }
         },
@@ -443,7 +437,7 @@
             "size": 22,
             "weight": "400",
             "text": "Create an Account",
-            "style": "italic",
+            "style": "normal",
             "color": {
               "light": "#1B1D26",
               "dark": "#ffffff"
@@ -473,7 +467,7 @@
               }
             ],
             "color": {
-              "light": "#ffffff",
+              "light": "#1B1D26",
               "dark": "#ffffff"
             }
           }
@@ -698,9 +692,6 @@
           },
           "logo": {
             "height": 40,
-            "type": "image",
-            "light": "assets/ic_phynd_logo_light.svg",
-            "dark": "assets/ic_phynd_logo_dark.svg",
             "width": 248
           },
           "title": "Welcome to PHYND"
@@ -769,5 +760,5 @@
       }
     }
   },
-  "version": 119
+  "version": 120
 }
