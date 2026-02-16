@@ -274,7 +274,7 @@
         ],
         "fields": [
           {
-            "error": "please enter your first name",
+            "error": "Please enter your first name",
             "id": "first_name",
             "label": "First Name",
             "placeholder": "firstname",
@@ -282,7 +282,7 @@
             "type": "text"
           },
           {
-            "error": "please enter your last name",
+            "error": "Please enter your last name",
             "id": "last_name",
             "label": "Last Name",
             "placeholder": "lastname",
@@ -321,7 +321,7 @@
             "type": "phone-email",
             "label": "Mobile Number or Email",
             "placeholder": "mobile number or email",
-            "error": "Invalid phone number or email",
+            "error": "Please enter a valid mobile number or email",
             "required": true,
             "fields": [
               {
@@ -349,7 +349,7 @@
             "type": "username",
             "label": "Create Username",
             "placeholder": "username",
-            "error": "Invalid username",
+            "error": "Please enter a valid username",
             "required": true
           },
           {
@@ -424,7 +424,7 @@
             "type": "checkbox",
             "required": true,
             "label": "I accept the PHYND\nTerms of Service & Privacy Policy",
-            "error": "Please accept terms",
+            "error": "Please accept the Terms & Privacy Policy",
             "links": [
               {
                 "text": "Terms of Service & Privacy Policy",
@@ -770,5 +770,5 @@
       }
     }
   },
-  "version": 123
+  "version": 124
 }
