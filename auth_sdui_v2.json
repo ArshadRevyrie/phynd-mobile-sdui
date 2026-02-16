@@ -130,13 +130,23 @@
             "light": "#1B1D26",
             "dark": "#E0E0E0"
           }
+        },
+        "hyperlink": {
+          "family": "Roboto-Regular",
+          "size": 14,
+          "weight": "400",
+          "style": "normal",
+          "color": {
+            "light": "#8080FF",
+            "dark": "#8080FF"
+          }
         }
       },
       "logo": {
         "height": 40,
         "type": "image",
-        "light": "assets/dummy_logo.png",
-        "dark": "assets/dummy_logo.png",
+        "light": "assets/ic_phynd_logo_light.svg",
+        "dark": "assets/ic_phynd_logo_dark.svg",
         "width": 248
       }
     },
@@ -161,7 +171,7 @@
             "size": 22,
             "weight": "400",
             "text": "Create an Account",
-            "style": "italic",
+            "style": "normal",
             "color": {
               "light": "#1B1D26",
               "dark": "#ffffff"
@@ -760,5 +770,5 @@
       }
     }
   },
-  "version": 120
+  "version": 121
 }
