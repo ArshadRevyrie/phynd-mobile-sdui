@@ -3,8 +3,8 @@
     "theme": {
       "colors": {
         "background": {
-          "light": "#FFFFFF",
-          "dark": "#1B1D26"
+          "light": "#e6e6e6",
+          "dark": "#000000"
         },
         "content": {
           "light": "#1B1D26",
@@ -15,10 +15,10 @@
           "dark": "#98989F"
         },
         "outline": {
-          "active-light": "#8080FF",
-          "active-dark": "#8080FF",
-          "inactive-light": "#D1D5DB",
-          "inactive-dark": "#313544",
+          "active-light": "#66ff33",
+          "active-dark": "#66ff33",
+          "inactive-light": "#2db300",
+          "inactive-dark": "#2db300",
           "light": "#D1D5DB",
           "dark": "#313544"
         },
@@ -30,13 +30,13 @@
         "button": {
           "DEFAULT": "#313544",
           "disabled": "#454B60",
-          "light": "#313544",
-          "dark": "#313544"
+          "light": "#ff99bb",
+          "dark": "#ff99bb"
         },
         "validation": {
-          "error": "#EF4444",
-          "error-bg-light": "#FEF2F2",
-          "error-bg-dark": "#451A1A",
+          "error": "#b366ff",
+          "error-bg-light": "#6666ff",
+          "error-bg-dark": "#009999",
           "success": "#34A853"
         },
         "accent": "#8080FF",
@@ -45,23 +45,23 @@
       },
       "fonts": {
         "label": {
-          "family": "Roboto-Regular",
-          "style": "normal",
-          "size": 14,
+          "family": "Roboto-Bold",
+          "style": "italic",
+          "size": 17,
           "weight": "400",
           "color": {
-            "light": "#6B7280",
-            "dark": "#98989F"
+            "light": "#ff3377",
+            "dark": "#0066cc"
           }
         },
         "input": {
-          "family": "Roboto-Regular",
-          "size": 16,
+          "family": "Roboto-Bold",
+          "size": 18,
           "weight": "400",
-          "style": "normal",
+          "style": "italic",
           "color": {
-            "light": "#1B1D26",
-            "dark": "#E0E0E0"
+            "light": "#00a3cc",
+            "dark": "#4ddbff"
           },
           "backgroundColor": {
             "light": "transparent",
@@ -73,40 +73,42 @@
           }
         },
         "placeholder": {
-          "family": "Roboto-Regular",
-          "size": 16,
+          "family": "Roboto-Medium",
+          "size": 12,
           "weight": "400",
           "style": "normal",
           "color": {
-            "light": "#6B7280",
-            "dark": "#98989F"
+            "light": "#e6b800",
+            "dark": "#ffd11a"
           }
         },
         "helperText": {
-          "family": "Roboto-Regular",
+          "family": "Roboto-Bold",
           "size": 12,
           "weight": "400",
-          "style": "normal",
+          "style": "italic",
           "color": {
-            "light": "#6B7280",
-            "dark": "#98989F"
+            "light": "#b35900",
+            "dark": "#ff8000"
           }
         },
         "error": {
-          "family": "Roboto-Regular",
-          "size": 12,
+          "family": "Roboto-SemiBold",
+          "size": 16,
           "weight": "400",
-          "style": "normal",
-          "color": "#EF4444"
+          "style": "italic",
+          "color": "#999966"
         },
         "button": {
-          "family": "Roboto-Medium",
-          "size": 16,
+          "family": "Roboto-Bold",
+          "size": 20,
           "weight": "500",
-          "style": "normal",
+          "style": "italic",
+          "borderRadius": 3,
+          "height": 30,
           "color": {
-            "light": "#FFFFFF",
-            "dark": "#FFFFFF"
+            "light": "#2eb8b8",
+            "dark": "#2eb8b8"
           }
         },
         "footer": {
@@ -128,7 +130,24 @@
             "light": "#1B1D26",
             "dark": "#E0E0E0"
           }
+        },
+        "hyperlink": {
+          "family": "Roboto-Regular",
+          "size": 14,
+          "weight": "400",
+          "style": "normal",
+          "color": {
+            "light": "#8080FF",
+            "dark": "#8080FF"
+          }
         }
+      },
+      "logo": {
+        "height": 124,
+        "type": "image",
+        "light": "assets/dummy_logo.png",
+        "dark": "assets/dummy_logo.png",
+        "width": 248
       }
     },
     "initialScreen": "login",
@@ -138,9 +157,6 @@
         "type": "splash",
         "content": {
           "logo": {
-            "type": "image",
-            "light": "assets/ic_phynd_logo_light.svg",
-            "dark": "assets/ic_phynd_logo_dark.svg",
             "width": 248,
             "height": 40
           }
@@ -150,16 +166,23 @@
         "id": "get_started",
         "type": "form",
         "header": {
-          "title": "Create a Free Account",
+          "title": {
+            "family": "Roboto-Bold",
+            "size": 22,
+            "weight": "400",
+            "text": "Create a Free Account",
+            "style": "normal",
+            "color": {
+              "light": "#1B1D26",
+              "dark": "#ffffff"
+            }
+          },
           "badge": {
             "text": "",
             "style": "filled"
           },
           "logo": {
             "height": 40,
-            "type": "image",
-            "light": "assets/ic_phynd_logo_light.svg",
-            "dark": "assets/ic_phynd_logo_dark.svg",
             "width": 248
           }
         },
@@ -167,7 +190,7 @@
           {
             "id": "tv_code",
             "type": "tv_code",
-            "label": "Enter the code shown on your TV if it does\nnot auto-populate.",
+            "label": "Enter the code shown on your TV if it does not auto-populate.",
             "autoPopulatedLabel": "Your TV code has been auto-populated."
           }
         ],
@@ -175,7 +198,7 @@
           {
             "id": "phynd",
             "type": "button",
-            "label": "Sign Up with PHYND",
+            "label": "Sign Up - PHYND",
             "style": "primary",
             "onPress": {
               "type": "navigate",
@@ -185,18 +208,8 @@
           {
             "id": "google",
             "type": "button",
-            "label": "Continue with Google",
+            "label": "Sign In with Google",
             "icon": "google",
-            "onPress": {
-              "type": "navigate",
-              "screen": "OtpScreen"
-            }
-          },
-          {
-            "id": "discord",
-            "type": "button",
-            "label": "",
-            "icon": "discord",
             "onPress": {
               "type": "navigate",
               "screen": "OtpScreen"
@@ -214,18 +227,7 @@
           }
         ],
         "footer": {
-          "links": [
-            {
-              "text": "Closed Alpha FAQ",
-              "action": "navigate",
-              "screen": "ClosedAlphaFAQ"
-            },
-            {
-              "text": "View the Subscriber Agreement & Online Conduct Policy",
-              "action": "navigate",
-              "screen": "SubscriberAgreement"
-            }
-          ]
+          "links": []
         }
       },
       "create_account": {
@@ -233,7 +235,7 @@
           {
             "disabledUntilValid": false,
             "id": "submit",
-            "label": "Create Account",
+            "label": "Create",
             "onPress": {
               "error": {
                 "toast": true
@@ -251,18 +253,10 @@
         ],
         "fields": [
           {
-            "error": "please enter your first name",
+            "error": "Please enter a name",
             "id": "first_name",
             "label": "First Name",
             "placeholder": "firstname",
-            "required": true,
-            "type": "text"
-          },
-          {
-            "error": "please enter your last name",
-            "id": "last_name",
-            "label": "Last Name",
-            "placeholder": "lastname",
             "required": true,
             "type": "text"
           },
@@ -287,9 +281,9 @@
                 "type": "dropdown"
               }
             ],
-            "helperText": "must be 18+ to join PHYND",
+            "helperText": "must be 18+ to Join",
             "id": "birthday",
-            "label": "Birthday",
+            "label": "Date of birth",
             "required": true,
             "type": "date_group"
           },
@@ -298,7 +292,7 @@
             "type": "phone-email",
             "label": "Mobile Number or Email",
             "placeholder": "mobile number or email",
-            "error": "Invalid phone number or email",
+            "error": "Please enter phone number/email",
             "required": true,
             "fields": [
               {
@@ -307,7 +301,7 @@
                 "label": "Mobile Number",
                 "title": "Mobile Number",
                 "placeholder": "Add your mobile number",
-                "error": "Invalid phone number",
+                "error": "Invalid phone",
                 "required": true
               },
               {
@@ -316,7 +310,7 @@
                 "label": "Email address",
                 "title": "Email",
                 "placeholder": "example@domain.com",
-                "error": "Invalid email format",
+                "error": "Invalid email",
                 "required": true
               }
             ]
@@ -324,9 +318,9 @@
           {
             "id": "username",
             "type": "username",
-            "label": "Create Username",
+            "label": "Username",
             "placeholder": "username",
-            "error": "Invalid username",
+            "error": "Please enter a valid username",
             "required": true
           },
           {
@@ -390,6 +384,18 @@
                 "startColor": "#8080FF",
                 "endColor": "#363658",
                 "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 11,
+                "startColor": "#8080FF",
+                "endColor": "#8080FF",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 12,
+                "startColor": "#cc0000",
+                "endColor": "#800000",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
               }
             ],
             "id": "avatars",
@@ -401,6 +407,7 @@
             "type": "checkbox",
             "required": true,
             "label": "I accept the PHYND\nTerms of Service & Privacy Policy",
+            "error": "Please accept Terms & Privacy Policy",
             "links": [
               {
                 "text": "Terms of Service & Privacy Policy",
@@ -415,25 +422,23 @@
             "text": ""
           },
           "logo": {
-            "height": 40,
-            "type": "image",
-            "light": "assets/ic_phynd_logo_light.svg",
-            "dark": "assets/ic_phynd_logo_dark.svg",
-            "width": 248
+            "height": 90,
+            "width": 180
           },
           "title": {
-            "family": "Roboto-Bold",
-            "size": 22,
+            "family": "Roboto-Regular",
+            "size": 19,
             "weight": "400",
             "text": "Create an Account",
+            "style": "italic",
             "color": {
-              "light": "#ffffff",
-              "dark": "#ffffff"
+              "light": "#00b300",
+              "dark": "#00b300"
             }
           },
           "secondaryTitle": {
-            "family": "Roboto-Regular",
-            "size": 16,
+            "family": "Roboto-Bold",
+            "size": 18,
             "weight": "400",
             "style": "normal",
             "text": [
@@ -455,8 +460,8 @@
               }
             ],
             "color": {
-              "light": "#ffffff",
-              "dark": "#ffffff"
+              "light": "#b300b3",
+              "dark": "#b300b3"
             }
           }
         },
@@ -680,9 +685,6 @@
           },
           "logo": {
             "height": 40,
-            "type": "image",
-            "light": "assets/ic_phynd_logo_light.svg",
-            "dark": "assets/ic_phynd_logo_dark.svg",
             "width": 248
           },
           "title": "Welcome to PHYND"
@@ -751,5 +753,5 @@
       }
     }
   },
-  "version": 113
+  "version": 123
 }
