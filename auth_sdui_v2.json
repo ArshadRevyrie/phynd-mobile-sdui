@@ -32,7 +32,7 @@
           "disabled": "#454B60",
           "light": "#313544",
           "dark": "#313544",
-          "startColor": "#8080FF",
+          "startColor": "#9E9EFE",
           "endColor": "#6060DD"
         },
         "validation": {
@@ -103,15 +103,15 @@
         },
         "button": {
           "family": "Roboto-Medium",
-          "size": 16,
           "weight": "500",
           "style": "normal",
           "borderRadius": 10,
-          "height": 48,
           "color": {
             "light": "#FFFFFF",
             "dark": "#FFFFFF"
-          }
+          },
+          "width": { "phone": null, "tablet": null },
+          "height": { "phone": 56, "tablet": 76 }
         },
         "footer": {
           "family": "Roboto-Regular",
@@ -145,11 +145,11 @@
         }
       },
       "logo": {
-        "height": 40,
         "type": "image",
         "light": "assets/ic_phynd_logo_light.svg",
         "dark": "assets/ic_phynd_logo_dark.svg",
-        "width": 248
+        "width": { "phone": 247.58, "tablet": 424.8 },
+        "height": { "phone": 44.47, "tablet": 76.31 }
       }
     },
     "initialScreen": "login",
@@ -570,5 +570,5 @@
       }
     }
   },
-  "version": 127
+  "version": 128
 }
