@@ -31,7 +31,9 @@
           "DEFAULT": "#313544",
           "disabled": "#454B60",
           "light": "#313544",
-          "dark": "#313544"
+          "dark": "#313544",
+          "startColor": "#8080FF",
+          "endColor": "#6060DD"
         },
         "validation": {
           "error": "#EF4444",
@@ -157,48 +159,58 @@
         "type": "splash",
         "content": {
           "logo": {
-            "width": 248,
-            "height": 40
+            "width": { "phone": 247.58, "tablet": 424.8 },
+            "height": { "phone": 44.47, "tablet": 76.31 }
           }
         }
       },
-      "get_started": {
-        "id": "get_started",
+      "landing_screen": {
+        "id": "landing",
         "type": "form",
         "header": {
-          "title": {
-            "family": "Roboto-Bold",
-            "size": 22,
-            "weight": "400",
-            "text": "Create a Free Account",
-            "style": "normal",
-            "color": {
-              "light": "#1B1D26",
-              "dark": "#ffffff"
-            }
-          },
-          "badge": {
-            "text": "",
-            "style": "filled"
-          },
           "logo": {
-            "height": 40,
-            "width": 248
+            "type": "image",
+            "light": "path/to/logo-light.svg",
+            "dark": "path/to/logo-dark.svg",
+            "width": { "phone": 247.58, "tablet": 424.8 },
+            "height": { "phone": 44.47, "tablet": 76.31 }
+          },
+          "title": {
+            "text": "Welcome to PHYND",
+            "family": "Roboto-Medium",
+            "size": { "phone": 24, "tablet": 36 },
+            "weight": "500",
+            "lineHeight": { "phone": null, "tablet": 43.2 },
+            "color": { "light": "#6B7280", "dark": "rgba(255,255,255,0.6)" }
           }
         },
         "fields": [
           {
             "id": "tv_code",
             "type": "tv_code",
-            "label": "Enter the code shown on your TV if it does\nnot auto-populate.",
-            "autoPopulatedLabel": "Your TV code has been auto-populated."
+            "label": "",
+            "placeholder": "",
+            "length": 6,
+            "helperText": "Enter the code shown on your TV if it does not auto-populate",
+            "required": false,
+            "layout": {
+              "helperText": {
+                "fontSize": { "phone": 12, "tablet": 26 },
+                "lineHeight": { "phone": null, "tablet": 42.25 }
+              },
+              "input": {
+                "width": { "phone": 43.31, "tablet": 69.63 },
+                "height": { "phone": 42.65, "tablet": 68.96 },
+                "fontSize": { "phone": 20, "tablet": 36 }
+              }
+            }
           }
         ],
-        "social": [
+        "actions": [
           {
-            "id": "phynd",
+            "id": "get_started",
             "type": "button",
-            "label": "Sign Up with PHYND",
+            "label": "Get Started",
             "style": "primary",
             "onPress": {
               "type": "navigate",
@@ -206,33 +218,13 @@
             }
           },
           {
-            "id": "google",
+            "id": "already_have_account",
             "type": "button",
-            "label": "Continue with Google",
-            "icon": "google",
+            "label": "I Already Have an Account",
+            "style": "secondary",
             "onPress": {
               "type": "navigate",
-              "screen": "OtpScreen"
-            }
-          },
-          {
-            "id": "discord",
-            "type": "button",
-            "label": "",
-            "icon": "discord",
-            "onPress": {
-              "type": "navigate",
-              "screen": "OtpScreen"
-            }
-          },
-          {
-            "id": "facebook",
-            "type": "button",
-            "label": "Continue with Facebook",
-            "icon": "facebook",
-            "onPress": {
-              "type": "navigate",
-              "screen": "OtpScreen"
+              "screen": "LoginScreen"
             }
           }
         ],
@@ -240,15 +232,26 @@
           "links": [
             {
               "text": "Closed Alpha FAQ",
-              "action": "navigate",
-              "screen": "ClosedAlphaFAQ"
+              "action": "open_url",
+              "url": "https://phynd.com/privacy"
             },
             {
-              "text": "View the Subscriber Agreement & Online Conduct Policy",
-              "action": "navigate",
-              "screen": "SubscriberAgreement"
+              "text": "View Terms of Service & Online Conduct Policy",
+              "action": "open_url",
+              "url": "https://phynd.com/terms"
             }
           ]
+        },
+        "layout": {
+          "gaps": {
+            "logoHeading": { "phone": 8, "tablet": 16 },
+            "headingCodeContainer": { "phone": 24, "tablet": 56 },
+            "codeSubheadingInputs": { "phone": 16, "tablet": 16 },
+            "codeInputs": { "phone": 12, "tablet": 40 },
+            "inputsBottomActions": { "phone": 40, "tablet": 80 },
+            "buttons": { "phone": 16, "tablet": 32 }
+          },
+          "buttonWidth": { "phone": null, "tablet": 600 }
         }
       },
       "create_account": {
@@ -500,38 +503,6 @@
         "theme": "dark",
         "type": "form"
       },
-      "forgot_password": {
-        "actions": [
-          {
-            "id": "send_reset",
-            "label": "Send Reset Link",
-            "onPress": {
-              "method": "POST",
-              "success": {
-                "navigate": "login",
-                "toast": "Reset link sent"
-              },
-              "type": "api",
-              "url": "/api/v1/auth/forgot-password"
-            },
-            "style": "primary",
-            "type": "button"
-          }
-        ],
-        "fields": [
-          {
-            "id": "email",
-            "label": "Email Address",
-            "required": true,
-            "type": "email"
-          }
-        ],
-        "header": {
-          "title": "Forgot Password"
-        },
-        "id": "forgot_password",
-        "type": "form"
-      },
       "login": {
         "actions": [
           {
@@ -596,179 +567,8 @@
         "id": "login",
         "theme": "dark",
         "type": "form"
-      },
-      "otp": {
-        "actions": [
-          {
-            "id": "verify",
-            "label": "Verify",
-            "onPress": {
-              "method": "POST",
-              "success": {
-                "navigate": "home"
-              },
-              "type": "api",
-              "url": "/api/v1/auth/verify-otp"
-            },
-            "style": "primary",
-            "type": "button"
-          }
-        ],
-        "fields": [
-          {
-            "id": "otp",
-            "length": 6,
-            "required": true,
-            "type": "otp"
-          }
-        ],
-        "header": {
-          "subtitle": "Enter the 6-digit code sent to you",
-          "title": "Verify OTP"
-        },
-        "id": "otp",
-        "type": "form"
-      },
-      "otp_verification": {
-        "id": "otp_verification",
-        "type": "form",
-        "header": {
-          "badge": {
-            "text": "",
-            "style": "filled"
-          }
-        },
-        "fields": [
-          {
-            "id": "otp_helper_text",
-            "type": "text",
-            "label": "An OTP has been sent to your {{phoneEmailType}}",
-            "helperText": "Please enter the OTP code below",
-            "required": false
-          },
-          {
-            "id": "otp",
-            "type": "otp",
-            "label": "OTP Code",
-            "placeholder": "•",
-            "required": true,
-            "length": 6,
-            "timerDuration": 120,
-            "resendText": "Resend OTP",
-            "error": "Please enter all 6 digits"
-          }
-        ],
-        "actions": [
-          {
-            "id": "submit",
-            "type": "button",
-            "label": "Submit",
-            "style": "primary",
-            "disabledUntilValid": false,
-            "onPress": {
-              "type": "api",
-              "method": "POST",
-              "url": "/api/v1/auth/verify-otp",
-              "success": {
-                "navigate": "WelcomeScreen"
-              },
-              "error": {
-                "toast": true
-              }
-            }
-          }
-        ],
-        "footer": {
-          "links": [
-            {
-              "text": "Closed Alpha FAQ",
-              "action": "navigate",
-              "screen": "ClosedAlphaFAQ"
-            },
-            {
-              "text": "View the Subscriber Agreement & Online Conduct Policy",
-              "action": "navigate",
-              "screen": "SubscriberAgreement"
-            }
-          ]
-        }
-      },
-      "welcome_screen": {
-        "id": "welcome_screen",
-        "header": {
-          "badge": {
-            "style": "outlined",
-            "text": ""
-          },
-          "logo": {
-            "height": 40,
-            "width": 248
-          },
-          "title": "Welcome to PHYND"
-        },
-        "list_items": [
-          {
-            "id": "1",
-            "type": "profile",
-            "title": "Congrats, {{username}}!"
-          },
-          {
-            "id": "2",
-            "type": "closedAlpha",
-            "title": "Welcome to PHYND's closed Alpha"
-          },
-          {
-            "id": "3",
-            "type": "email",
-            "title": "If you'd like to add an email address to your account,\nAdd your email here.",
-            "highlightedWords": ["Add your email here."]
-          },
-          {
-            "id": "4",
-            "type": "love",
-            "title": "We love feedback! Join our invite-only Discord channel to share your experience\nJoin Discord channel",
-            "highlightedWords": ["Join Discord channel"]
-          },
-          {
-            "id": "5",
-            "type": "social",
-            "title": "Join us on social",
-            "social": [
-              {
-                "id": "tiktok",
-                "url": "https://www.tiktok.com/@phynd"
-              },
-              {
-                "id": "twitch",
-                "url": "https://www.twitch.tv/phynd"
-              },
-              {
-                "id": "youtube",
-                "url": "https://www.youtube.com/@phynd"
-              },
-              {
-                "id": "instagram",
-                "url": "https://www.instagram.com/phynd"
-              },
-              {
-                "id": "facebook",
-                "url": "https://www.facebook.com/phynd"
-              },
-              {
-                "id": "linkedin",
-                "url": "https://www.linkedin.com/company/phynd"
-              }
-            ]
-          },
-          {
-            "id": "6",
-            "type": "support",
-            "title": "Contact Support here",
-            "highlightedWords": ["Contact Support here"]
-          }
-        ]
       }
     }
   },
-  "version": 126
+  "version": 127
 }
