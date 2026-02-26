@@ -110,8 +110,18 @@
             "light": "#FFFFFF",
             "dark": "#FFFFFF"
           },
-          "width": { "phone": null, "tablet": null },
-          "height": { "phone": 56, "tablet": 76 }
+          "size": { "phone": 16, "tablet": 20 }
+        },
+        "secondaryButton": {
+          "family": "Roboto-Medium",
+          "weight": "500",
+          "style": "normal",
+          "borderRadius": 10,
+          "color": {
+            "light": "#FFFFFF",
+            "dark": "#FFFFFF"
+          },
+          "size": { "phone": 16, "tablet": 20 }
         },
         "footer": {
           "family": "Roboto-Regular",
@@ -167,6 +177,14 @@
       "landing_screen": {
         "id": "landing",
         "type": "form",
+        "backgroundImage": {
+          "type": "image",
+          "url": {
+            "phone": "assets/getStartedBg.png",
+            "tablet": "assets/getStartedBgTab.png"
+          },
+          "resizeMode": "cover"
+        },
         "header": {
           "logo": {
             "type": "image",
@@ -570,5 +588,5 @@
       }
     }
   },
-  "version": 128
+  "version": 129
 }
