@@ -35,6 +35,14 @@
           "startColor": "#9E9EFE",
           "endColor": "#6060DD"
         },
+        "secondaryButton": {
+          "DEFAULT": "#FFFFFF",
+          "disabled": "#454B60",
+          "light": "#FFFFFF",
+          "dark": "#FFFFFF",
+          "startColor": "#313544",
+          "endColor": "#313544"
+        },
         "validation": {
           "error": "#EF4444",
           "error-bg-light": "#FEF2F2",
@@ -588,5 +596,5 @@
       }
     }
   },
-  "version": 129
+  "version": 130
 }
