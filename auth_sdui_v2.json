@@ -118,7 +118,7 @@
             "light": "#FFFFFF",
             "dark": "#FFFFFF"
           },
-          "size": { "phone": 16, "tablet": 20 }
+          "size": { "phone": 16, "tablet": 26 }
         },
         "secondaryButton": {
           "family": "Roboto-Medium",
@@ -129,7 +129,7 @@
             "light": "#FFFFFF",
             "dark": "#FFFFFF"
           },
-          "size": { "phone": 16, "tablet": 20 }
+          "size": { "phone": 16, "tablet": 26 }
         },
         "footer": {
           "family": "Roboto-Regular",
@@ -273,7 +273,7 @@
             "logoHeading": { "phone": 8, "tablet": 16 },
             "headingCodeContainer": { "phone": 24, "tablet": 56 },
             "codeSubheadingInputs": { "phone": 16, "tablet": 16 },
-            "codeInputs": { "phone": 12, "tablet": 40 },
+            "codeInputs": { "phone": 10, "tablet": 40 },
             "inputsBottomActions": { "phone": 40, "tablet": 80 },
             "buttons": { "phone": 16, "tablet": 32 }
           },
@@ -596,5 +596,5 @@
       }
     }
   },
-  "version": 130
+  "version": 131
 }
