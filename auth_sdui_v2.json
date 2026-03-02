@@ -118,7 +118,7 @@
             "light": "#FFFFFF",
             "dark": "#FFFFFF"
           },
-          "size": { "phone": 16, "tablet": 26 }
+          "size": { "phone": 16, "tablet": 20 }
         },
         "secondaryButton": {
           "family": "Roboto-Medium",
@@ -129,7 +129,7 @@
             "light": "#FFFFFF",
             "dark": "#FFFFFF"
           },
-          "size": { "phone": 16, "tablet": 26 }
+          "size": { "phone": 16, "tablet": 20 }
         },
         "footer": {
           "family": "Roboto-Regular",
@@ -596,5 +596,5 @@
       }
     }
   },
-  "version": 131
+  "version": 132
 }
