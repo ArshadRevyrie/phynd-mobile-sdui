@@ -1012,7 +1012,7 @@
             }
           },
           "secondaryTitle": {
-            "text": "You must be 14 years or older to join.",
+            "text": "You must be 18 years or older to join.",
             "family": "Roboto-Regular",
             "size": {
               "phone": 14,
@@ -1348,5 +1348,5 @@
       }
     }
   },
-  "version": 136
+  "version": 137
 }
