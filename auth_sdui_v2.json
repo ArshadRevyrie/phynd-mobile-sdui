@@ -1032,7 +1032,7 @@
             "type": "date_group",
             "label": "Birthday",
             "required": true,
-            "helperText": "must be 14+ to join PHYND",
+            "helperText": "must be 18+ to join PHYND",
             "fields": [
               {
                 "id": "birth_month",
@@ -1049,13 +1049,13 @@
               {
                 "id": "birth_year",
                 "type": "dropdown",
-                "options": "years_14_plus",
+                "options": "years_18_plus",
                 "placeholder": "Year"
               }
             ],
             "validation": {
-              "minAge": 14,
-              "errorMessage": "You must be 14 years or older to join PHYND"
+              "minAge": 18,
+              "errorMessage": "You must be 18 years or older to join PHYND"
             }
           }
         ],
@@ -1348,5 +1348,5 @@
       }
     }
   },
-  "version": 134
+  "version": 135
 }
