@@ -180,6 +180,22 @@
           "phone": 44.47,
           "tablet": 76.31
         }
+      },
+      "formInput": {
+        "height": { "phone": 56, "tablet": 76 },
+        "borderRadius": 16,
+        "paddingHorizontal": 16,
+        "fontSize": { "phone": 16, "tablet": 18 },
+        "borderWidth": 1,
+        "iconSize": { "phone": 20, "tablet": 24 },
+        "labelMarginBottom": 8,
+        "errorFontSize": 14,
+        "errorMarginTop": 8,
+        "trailingElementGap": 8,
+        "shadowRadius": 8,
+        "shadowOpacity": 0.2,
+        "shadowOffset": { "width": 0, "height": 4 },
+        "elevation": 4
       }
     },
     "initialScreen": "login",
