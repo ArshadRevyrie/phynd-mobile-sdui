@@ -877,7 +877,21 @@
             "style": "primary",
             "disabledUntilValid": true
           }
-        ]
+        ],
+        "footer": {
+          "links": [
+            {
+              "text": "Closed Alpha FAQ",
+              "action": "open_url",
+              "url": "https://phynd.com/privacy"
+            },
+            {
+              "text": "View Terms of Service & Online Conduct Policy",
+              "action": "open_url",
+              "url": "https://phynd.com/terms"
+            }
+          ]
+        }
       },
 
       "onboarding_step2_name": {
@@ -961,7 +975,21 @@
             "style": "primary",
             "disabledUntilValid": true
           }
-        ]
+        ],
+        "footer": {
+          "links": [
+            {
+              "text": "Closed Alpha FAQ",
+              "action": "open_url",
+              "url": "https://phynd.com/privacy"
+            },
+            {
+              "text": "View Terms of Service & Online Conduct Policy",
+              "action": "open_url",
+              "url": "https://phynd.com/terms"
+            }
+          ]
+        }
       },
 
       "onboarding_step3_birthday": {
@@ -1039,7 +1067,21 @@
             "style": "primary",
             "disabledUntilValid": true
           }
-        ]
+        ],
+        "footer": {
+          "links": [
+            {
+              "text": "Closed Alpha FAQ",
+              "action": "open_url",
+              "url": "https://phynd.com/privacy"
+            },
+            {
+              "text": "View Terms of Service & Online Conduct Policy",
+              "action": "open_url",
+              "url": "https://phynd.com/terms"
+            }
+          ]
+        }
       },
 
       "onboarding_step4_username": {
@@ -1123,7 +1165,21 @@
             "style": "primary",
             "disabledUntilValid": true
           }
-        ]
+        ],
+        "footer": {
+          "links": [
+            {
+              "text": "Closed Alpha FAQ",
+              "action": "open_url",
+              "url": "https://phynd.com/privacy"
+            },
+            {
+              "text": "View Terms of Service & Online Conduct Policy",
+              "action": "open_url",
+              "url": "https://phynd.com/terms"
+            }
+          ]
+        }
       },
 
       "onboarding_step5_avatar": {
@@ -1214,6 +1270,54 @@
                 "startColor": "#c0392b",
                 "endColor": "#1e3a8a",
                 "assetKey": "ProfileColorGradientDarkredBlue"
+              },
+              {
+                "id": 9,
+                "startColor": "#0282AF",
+                "endColor": "#0282AF",
+                "assetKey": "ProfileColorGradientBlueGreen"
+              },
+              {
+                "id": 10,
+                "startColor": "#8080ff",
+                "endColor": "#8080ff",
+                "assetKey": "ProfileColorGradientPurpleYellow"
+              },
+              {
+                "id": 11,
+                "startColor": "#1e3a8a",
+                "endColor": "#1e3a8a",
+                "assetKey": "ProfileColorGradientNavyPeach"
+              },
+              {
+                "id": 12,
+                "startColor": "#c084fc",
+                "endColor": "#c084fc",
+                "assetKey": "ProfileColorGradientPinkPurple"
+              },
+              {
+                "id": 13,
+                "startColor": "#6bcf7f",
+                "endColor": "#6bcf7f",
+                "assetKey": "ProfileColorGradientGreen"
+              },
+              {
+                "id": 14,
+                "startColor": "#ff6b6b",
+                "endColor": "#ff6b6b",
+                "assetKey": "ProfileColorGradientRedBlue"
+              },
+              {
+                "id": 15,
+                "startColor": "#ffd93d",
+                "endColor": "#ffd93d",
+                "assetKey": "ProfileColorGradientYellowOrange"
+              },
+              {
+                "id": 16,
+                "startColor": "#808080",
+                "endColor": "#808080",
+                "assetKey": "ProfileColorFlatGrey"
               }
             ]
           }
@@ -1226,7 +1330,21 @@
             "style": "primary",
             "disabledUntilValid": true
           }
-        ]
+        ],
+        "footer": {
+          "links": [
+            {
+              "text": "Closed Alpha FAQ",
+              "action": "open_url",
+              "url": "https://phynd.com/privacy"
+            },
+            {
+              "text": "View Terms of Service & Online Conduct Policy",
+              "action": "open_url",
+              "url": "https://phynd.com/terms"
+            }
+          ]
+        }
       }
     }
   },
