@@ -1,0 +1,1481 @@
+{
+  "ui": {
+    "theme": {
+      "colors": {
+        "background": {
+          "light": "#FFFFFF",
+          "dark": "#1B1D26"
+        },
+        "content": {
+          "light": "#1B1D26",
+          "dark": "#E0E0E0"
+        },
+        "muted": {
+          "light": "#6B7280",
+          "dark": "#98989F"
+        },
+        "outline": {
+          "active-light": "#8080FF",
+          "active-dark": "#8080FF",
+          "inactive-light": "#D1D5DB",
+          "inactive-dark": "#313544",
+          "light": "#D1D5DB",
+          "dark": "#313544"
+        },
+        "primary": {
+          "DEFAULT": "#1B1D26",
+          "light": "#8080FF",
+          "dark": "#454B60"
+        },
+        "button": {
+          "DEFAULT": "#313544",
+          "disabled": "#454B60",
+          "light": "#313544",
+          "dark": "#313544",
+          "startColor": "#9E9EFE",
+          "endColor": "#6060DD"
+        },
+        "secondaryButton": {
+          "DEFAULT": "#FFFFFF",
+          "disabled": "#454B60",
+          "light": "#FFFFFF",
+          "dark": "#FFFFFF",
+          "startColor": "#313544",
+          "endColor": "#313544"
+        },
+        "validation": {
+          "error": "#EF4444",
+          "error-bg-light": "#FEF2F2",
+          "error-bg-dark": "#451A1A",
+          "success": "#34A853"
+        },
+        "accent": "#8080FF",
+        "charcoal": "#313544",
+        "discord-btn": "#E0E3FF"
+      },
+      "fonts": {
+        "label": {
+          "family": "Roboto-Regular",
+          "style": "normal",
+          "size": 14,
+          "weight": "400",
+          "color": {
+            "light": "#6B7280",
+            "dark": "#98989F"
+          }
+        },
+        "input": {
+          "family": "Roboto-Regular",
+          "size": 16,
+          "weight": "400",
+          "style": "normal",
+          "color": {
+            "light": "#1B1D26",
+            "dark": "#E0E0E0"
+          },
+          "backgroundColor": {
+            "light": "transparent",
+            "dark": "transparent"
+          },
+          "errorBackgroundColor": {
+            "light": "#FEF2F2",
+            "dark": "#451A1A"
+          }
+        },
+        "placeholder": {
+          "family": "Roboto-Regular",
+          "size": 16,
+          "weight": "400",
+          "style": "normal",
+          "color": {
+            "light": "#6B7280",
+            "dark": "#98989F"
+          }
+        },
+        "helperText": {
+          "family": "Roboto-Regular",
+          "size": 12,
+          "weight": "400",
+          "style": "normal",
+          "color": {
+            "light": "#6B7280",
+            "dark": "#98989F"
+          }
+        },
+        "error": {
+          "family": "Roboto-Regular",
+          "size": 12,
+          "weight": "400",
+          "style": "normal",
+          "color": "#EF4444"
+        },
+        "button": {
+          "family": "Roboto-Medium",
+          "weight": "500",
+          "style": "normal",
+          "borderRadius": 10,
+          "color": {
+            "light": "#FFFFFF",
+            "dark": "#FFFFFF"
+          },
+          "size": {
+            "phone": 16,
+            "tablet": 20
+          }
+        },
+        "secondaryButton": {
+          "family": "Roboto-Medium",
+          "weight": "500",
+          "style": "normal",
+          "borderRadius": 10,
+          "color": {
+            "light": "#FFFFFF",
+            "dark": "#FFFFFF"
+          },
+          "size": {
+            "phone": 16,
+            "tablet": 20
+          }
+        },
+        "footer": {
+          "family": "Roboto-Regular",
+          "size": 12,
+          "weight": "400",
+          "style": "normal",
+          "color": {
+            "light": "#313544",
+            "dark": "#E0E0E0"
+          }
+        },
+        "headerTitle": {
+          "family": "Roboto-Bold",
+          "size": 24,
+          "weight": "700",
+          "style": "normal",
+          "color": {
+            "light": "#1B1D26",
+            "dark": "#E0E0E0"
+          }
+        },
+        "hyperlink": {
+          "family": "Roboto-Regular",
+          "size": 14,
+          "weight": "400",
+          "style": "normal",
+          "color": {
+            "light": "#8080FF",
+            "dark": "#8080FF"
+          }
+        }
+      },
+      "logo": {
+        "type": "image",
+        "light": "assets/ic_phynd_logo_light.svg",
+        "dark": "assets/ic_phynd_logo_dark.svg",
+        "width": {
+          "phone": 247.58,
+          "tablet": 424.8
+        },
+        "height": {
+          "phone": 44.47,
+          "tablet": 76.31
+        }
+      },
+      "formInput": {
+        "height": { "phone": 56, "tablet": 76 },
+        "borderRadius": 16,
+        "paddingHorizontal": 16,
+        "fontSize": { "phone": 16, "tablet": 18 },
+        "borderWidth": 1,
+        "iconSize": { "phone": 20, "tablet": 24 },
+        "labelMarginBottom": 8,
+        "errorFontSize": 14,
+        "errorMarginTop": 8,
+        "trailingElementGap": 8,
+        "shadowRadius": 8,
+        "shadowOpacity": 0.2,
+        "shadowOffset": { "width": 0, "height": 4 },
+        "elevation": 4
+      },
+      "dropdown": {
+        "labelFontSize": { "phone": 14, "tablet": 16 },
+        "labelMarginBottom": 8,
+        "triggerHeight": { "phone": 48, "tablet": 58 },
+        "triggerBorderRadius": 12,
+        "triggerPaddingHorizontal": 16,
+        "triggerPaddingVertical": 14,
+        "triggerBorderWidth": 1,
+        "triggerFontSize": { "phone": 16, "tablet": 18 },
+        "triggerIconSize": 20,
+        "modalBorderRadius": 16,
+        "modalMaxHeight": 250,
+        "modalPadding": 8,
+        "modalBorderWidth": 1,
+        "modalShadowRadius": 8,
+        "modalShadowOpacity": 0.2,
+        "modalShadowOffset": { "width": 0, "height": 4 },
+        "modalElevation": 5,
+        "optionItemHeight": 49,
+        "optionItemPaddingVertical": 14,
+        "optionItemPaddingHorizontal": 16,
+        "optionItemFontSize": 16
+      }
+    },
+    "initialScreen": "login",
+    "screens": {
+      "splash_screen": {
+        "id": "splash_screen",
+        "type": "splash",
+        "content": {
+          "logo": {
+            "width": {
+              "phone": 247.58,
+              "tablet": 424.8
+            },
+            "height": {
+              "phone": 44.47,
+              "tablet": 76.31
+            }
+          }
+        }
+      },
+      "landing_screen": {
+        "id": "landing",
+        "type": "form",
+        "backgroundImage": {
+          "type": "image",
+          "url": {
+            "phone": "assets/getStartedBg.png",
+            "tablet": "assets/getStartedBgTab.png"
+          },
+          "resizeMode": "cover"
+        },
+        "header": {
+          "logo": {
+            "type": "image",
+            "light": "path/to/logo-light.svg",
+            "dark": "path/to/logo-dark.svg",
+            "width": {
+              "phone": 247.58,
+              "tablet": 424.8
+            },
+            "height": {
+              "phone": 44.47,
+              "tablet": 76.31
+            }
+          },
+          "title": {
+            "text": "Welcome to PHYND",
+            "family": "Roboto-Medium",
+            "size": {
+              "phone": 24,
+              "tablet": 36
+            },
+            "weight": "500",
+            "lineHeight": {
+              "phone": null,
+              "tablet": 43.2
+            },
+            "color": {
+              "light": "#6B7280",
+              "dark": "rgba(255,255,255,0.6)"
+            }
+          }
+        },
+        "fields": [
+          {
+            "id": "tv_code",
+            "type": "tv_code",
+            "label": "",
+            "placeholder": "",
+            "length": 6,
+            "helperText": "Enter the code shown on your TV if it does not auto-populate",
+            "required": false,
+            "layout": {
+              "helperText": {
+                "fontSize": {
+                  "phone": 12,
+                  "tablet": 26
+                },
+                "lineHeight": {
+                  "phone": null,
+                  "tablet": 42.25
+                }
+              },
+              "input": {
+                "width": {
+                  "phone": 43.31,
+                  "tablet": 69.63
+                },
+                "height": {
+                  "phone": 42.65,
+                  "tablet": 68.96
+                },
+                "fontSize": {
+                  "phone": 20,
+                  "tablet": 36
+                }
+              }
+            }
+          }
+        ],
+        "actions": [
+          {
+            "id": "get_started",
+            "type": "button",
+            "label": "Get Started",
+            "style": "primary",
+            "onPress": {
+              "type": "navigate",
+              "screen": "SignUpScreen"
+            }
+          },
+          {
+            "id": "already_have_account",
+            "type": "button",
+            "label": "I Already Have an Account",
+            "style": "secondary",
+            "onPress": {
+              "type": "navigate",
+              "screen": "LoginScreen"
+            }
+          }
+        ],
+        "footer": {
+          "links": [
+            {
+              "text": "Closed Alpha FAQ",
+              "action": "open_url",
+              "url": "https://phynd.com/privacy"
+            },
+            {
+              "text": "View Terms of Service & Online Conduct Policy",
+              "action": "open_url",
+              "url": "https://phynd.com/terms"
+            }
+          ]
+        },
+        "layout": {
+          "gaps": {
+            "logoHeading": {
+              "phone": 8,
+              "tablet": 16
+            },
+            "headingCodeContainer": {
+              "phone": 24,
+              "tablet": 56
+            },
+            "codeSubheadingInputs": {
+              "phone": 16,
+              "tablet": 16
+            },
+            "codeInputs": {
+              "phone": 10,
+              "tablet": 40
+            },
+            "inputsBottomActions": {
+              "phone": 40,
+              "tablet": 80
+            },
+            "buttons": {
+              "phone": 16,
+              "tablet": 32
+            }
+          },
+          "buttonWidth": {
+            "phone": null,
+            "tablet": 600
+          }
+        }
+      },
+
+      "create_account": {
+        "id": "create_account",
+        "type": "form",
+        "theme": "dark",
+        "header": {
+          "badge": {
+            "style": "outlined",
+            "text": ""
+          },
+          "logo": {
+            "height": 40,
+            "width": 248
+          },
+          "title": {
+            "family": "Roboto-Bold",
+            "size": 22,
+            "weight": "400",
+            "text": "Create a Free Account",
+            "style": "normal",
+            "color": {
+              "light": "#1B1D26",
+              "dark": "#ffffff"
+            }
+          },
+          "secondaryTitle": {
+            "family": "Roboto-Regular",
+            "size": 16,
+            "weight": "400",
+            "style": "normal",
+            "text": [
+              {
+                "type": "phynd",
+                "text": "Signing Up with PHYND"
+              },
+              {
+                "type": "google",
+                "text": "Signing Up with Google"
+              },
+              {
+                "type": "facebook",
+                "text": "Signing Up with Facebook"
+              },
+              {
+                "type": "discord",
+                "text": "Signing Up with Discord"
+              }
+            ],
+            "color": {
+              "light": "#1B1D26",
+              "dark": "#ffffff"
+            }
+          }
+        },
+        "fields": [
+          {
+            "error": "Please enter your first name",
+            "id": "first_name",
+            "label": "First Name",
+            "placeholder": "firstname",
+            "required": true,
+            "type": "text"
+          },
+          {
+            "error": "Please enter your last name",
+            "id": "last_name",
+            "label": "Last Name",
+            "placeholder": "lastname",
+            "required": true,
+            "type": "text"
+          },
+          {
+            "fields": [
+              {
+                "id": "birth_month",
+                "options": "months",
+                "placeholder": "Month",
+                "type": "dropdown"
+              },
+              {
+                "id": "birth_day",
+                "options": "days",
+                "placeholder": "Day",
+                "type": "dropdown"
+              },
+              {
+                "id": "birth_year",
+                "options": "years_18_plus",
+                "placeholder": "Year",
+                "type": "dropdown"
+              }
+            ],
+            "helperText": "must be 18+ to join PHYND",
+            "id": "birthday",
+            "label": "Birthday",
+            "required": true,
+            "type": "date_group"
+          },
+          {
+            "id": "phoneEmail",
+            "type": "phone-email",
+            "label": "Mobile Number or Email",
+            "placeholder": "mobile number or email",
+            "error": "Please enter a valid mobile number or email",
+            "required": true,
+            "fields": [
+              {
+                "id": "phone",
+                "type": "phone",
+                "label": "Mobile Number",
+                "title": "Mobile Number",
+                "placeholder": "Add your mobile number",
+                "error": "Invalid phone number",
+                "required": true
+              },
+              {
+                "id": "email",
+                "type": "email",
+                "label": "Email address",
+                "title": "Email",
+                "placeholder": "example@domain.com",
+                "error": "Invalid email format",
+                "required": true
+              }
+            ]
+          },
+          {
+            "id": "username",
+            "type": "username",
+            "label": "Create Username",
+            "placeholder": "username",
+            "error": "Please enter a valid username",
+            "required": true
+          },
+          {
+            "avatars": [
+              {
+                "id": 1,
+                "startColor": "#0282AF",
+                "endColor": "#FF5D60",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=Oliver&radius=50"
+              },
+              {
+                "id": 2,
+                "startColor": "#D0BD16",
+                "endColor": "#D56317",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=Adrian&radius=50"
+              },
+              {
+                "id": 3,
+                "startColor": "#D016A4",
+                "endColor": "#7422E0",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 4,
+                "startColor": "#31ACFF",
+                "endColor": "#FF0A0E",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 5,
+                "startColor": "#E47E55",
+                "endColor": "#393093",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 6,
+                "startColor": "#A4D70B",
+                "endColor": "#155857",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 7,
+                "startColor": "#8080FF",
+                "endColor": "#F0B25B",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 8,
+                "startColor": "#55AA2E",
+                "endColor": "#55AA2E",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 9,
+                "startColor": "#858CA7",
+                "endColor": "#858CA7",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              },
+              {
+                "id": 10,
+                "startColor": "#8080FF",
+                "endColor": "#363658",
+                "url": "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=George&radius=50"
+              }
+            ],
+            "id": "avatars",
+            "label": "Profile Color",
+            "type": "avatars"
+          },
+          {
+            "id": "terms",
+            "type": "checkbox",
+            "required": true,
+            "label": "I accept the PHYND\nTerms of Service & Privacy Policy",
+            "error": "Please accept the Terms & Privacy Policy",
+            "links": [
+              {
+                "text": "Terms of Service & Privacy Policy",
+                "url": "https://phynd.com/terms"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "disabledUntilValid": false,
+            "id": "submit",
+            "label": "Create Account",
+            "onPress": {
+              "error": {
+                "toast": true
+              },
+              "method": "POST",
+              "success": {
+                "navigate": "otp"
+              },
+              "type": "api",
+              "url": "/api/v1/auth/register"
+            },
+            "style": "primary",
+            "type": "button"
+          }
+        ],
+        "footer": {
+          "links": [
+            {
+              "text": "Closed Alpha FAQ",
+              "action": "navigate",
+              "screen": "alpha_faq"
+            },
+            {
+              "text": "View the Subscriber Agreement & Online Conduct Policy",
+              "action": "open_url",
+              "url": "https://phynd.com/subscriber-agreement"
+            }
+          ]
+        }
+      },
+
+      "login": {
+        "id": "login",
+        "type": "form",
+        "theme": "dark",
+        "header": {
+          "logo": {
+            "height": 32,
+            "type": "image",
+            "url": "https://cdn.phynd.com/logo_alpha.png",
+            "width": 120
+          },
+          "title": "Welcome Back"
+        },
+        "fields": [
+          {
+            "id": "identifier",
+            "label": "Mobile Number or Email",
+            "required": true,
+            "type": "phone-email"
+          },
+          {
+            "id": "password",
+            "label": "Password",
+            "required": true,
+            "type": "password"
+          }
+        ],
+        "actions": [
+          {
+            "id": "login",
+            "label": "Login",
+            "onPress": {
+              "error": {
+                "toast": true
+              },
+              "method": "POST",
+              "success": {
+                "navigate": "otp"
+              },
+              "type": "api",
+              "url": "/api/v1/auth/login"
+            },
+            "style": "primary",
+            "type": "button"
+          },
+          {
+            "id": "go_to_register",
+            "label": "Create a Free Account",
+            "onPress": {
+              "screen": "create_account",
+              "type": "navigate"
+            },
+            "type": "link"
+          },
+          {
+            "id": "forgot_password",
+            "label": "Forgot Password?",
+            "onPress": {
+              "screen": "forgot_password",
+              "type": "navigate"
+            },
+            "type": "link"
+          }
+        ]
+      },
+
+      "onboarding_step1_contact": {
+        "id": "onboarding_step1_contact",
+        "type": "form",
+        "theme": "dark",
+        "header": {
+          "title": {
+            "text": "How should we verify you?",
+            "family": "Roboto-Bold",
+            "size": {
+              "phone": 24,
+              "tablet": 48
+            },
+            "weight": "700",
+            "style": "normal",
+            "color": {
+              "light": "#1B1D26",
+              "dark": "#ffffff"
+            }
+          },
+          "secondaryTitle": {
+            "text": "You can verify your account using either your email address or your mobile number.",
+            "family": "Roboto-Regular",
+            "size": {
+              "phone": 14,
+              "tablet": 20
+            },
+            "weight": "400",
+            "style": "normal",
+            "color": {
+              "light": "#6B7280",
+              "dark": "#98989F"
+            }
+          }
+        },
+        "fields": [
+          {
+            "id": "contact_method_toggle",
+            "type": "toggle",
+            "label": "Preferred contact method",
+            "options": [
+              {
+                "id": "email",
+                "label": "Email"
+              },
+              {
+                "id": "mobile",
+                "label": "Mobile Number"
+              }
+            ]
+          },
+          {
+            "id": "email",
+            "type": "text",
+            "label": "Email address",
+            "placeholder": "Enter your email",
+            "keyboardType": "email-address",
+            "required": true,
+            "validation": {
+              "type": "email",
+              "errorMessage": "Please enter a valid email address."
+            },
+            "visible": true
+          },
+          {
+            "id": "phone",
+            "type": "phone",
+            "label": "Mobile number",
+            "placeholder": "Enter your mobile number",
+            "required": true,
+            "validation": {
+              "type": "phone",
+              "minDigits": 10,
+              "errorMessage": "Please enter a valid mobile number."
+            },
+            "visible": true,
+            "country": {
+              "default": "US",
+              "allowed": ["US", "GB", "IN"]
+            }
+          }
+        ],
+        "states": {
+          "enter_contact": {
+            "id": "enter_contact",
+            "titleTextOverride": "What's your email or number?",
+            "subtitleTextOverride": "You can verify your account using either your email address or your mobile number."
+          },
+          "verify_email": {
+            "id": "verify_email",
+            "title": {
+              "text": "Verify your email",
+              "family": "Roboto-Bold",
+              "size": {
+                "phone": 24,
+                "tablet": 48
+              },
+              "weight": "700",
+              "style": "normal",
+              "color": {
+                "light": "#1B1D26",
+                "dark": "#ffffff"
+              }
+            },
+            "body": {
+              "text": [
+                "We've sent a verification link to your email.",
+                "Please verify your account by clicking the link sent to your email. The link expires in 2 minutes."
+              ],
+              "family": "Roboto-Regular",
+              "size": {
+                "phone": 14,
+                "tablet": 20
+              },
+              "weight": "400",
+              "style": "normal",
+              "color": {
+                "light": "#6B7280",
+                "dark": "#98989F"
+              }
+            },
+            "resend": {
+              "text": "Send a new verification link",
+              "font": {
+                "family": "Roboto-Medium",
+                "size": {
+                  "phone": 12,
+                  "tablet": 18
+                },
+                "weight": "500",
+                "style": "normal",
+                "color": {
+                  "light": "#8080FF",
+                  "dark": "#8080FF"
+                }
+              }
+            }
+          },
+          "verify_phone": {
+            "id": "verify_phone",
+            "title": {
+              "text": "Verify mobile number",
+              "family": "Roboto-Bold",
+              "size": {
+                "phone": 24,
+                "tablet": 48
+              },
+              "weight": "700",
+              "style": "normal",
+              "color": {
+                "light": "#1B1D26",
+                "dark": "#ffffff"
+              }
+            },
+            "body": {
+              "text": [
+                "We sent a 6-digit code to your mobile number.",
+                "Enter the code below."
+              ],
+              "family": "Roboto-Regular",
+              "size": {
+                "phone": 14,
+                "tablet": 20
+              },
+              "weight": "400",
+              "style": "normal",
+              "color": {
+                "light": "#6B7280",
+                "dark": "#98989F"
+              }
+            },
+            "otp": {
+              "length": 6,
+              "box": {
+                "size": {
+                  "phone": 48,
+                  "tablet": 80
+                },
+                "fontSize": {
+                  "phone": 20,
+                  "tablet": 36
+                },
+                "fontFamily": "Roboto-Bold"
+              },
+              "errorMessage": "Please enter the 6-digit code."
+            },
+            "resend": {
+              "text": "Didn't receive a code? Resend",
+              "font": {
+                "family": "Roboto-Medium",
+                "size": {
+                  "phone": 12,
+                  "tablet": 18
+                },
+                "weight": "500",
+                "style": "normal",
+                "color": {
+                  "light": "#8080FF",
+                  "dark": "#8080FF"
+                }
+              }
+            }
+          }
+        },
+        "layout": {
+          "typography": {
+            "heading": {
+              "size": { "phone": 24, "tablet": 48 },
+              "lineHeight": { "phone": 32, "tablet": 48 }
+            },
+            "subHeading": {
+              "size": { "phone": 14, "tablet": 20 },
+              "lineHeight": { "phone": 20, "tablet": 28 }
+            }
+          },
+          "gaps": {
+            "containerMt": { "phone": 16, "tablet": 32 },
+            "gapSubheadingToggle": { "phone": 12, "tablet": 24 },
+            "gapHeadingContent": { "phone": 32, "tablet": 32 }
+          },
+          "otp": {
+            "boxSize": { "phone": 48, "tablet": 80 },
+            "fontSize": { "phone": 20, "tablet": 36 }
+          },
+          "resendCode": {
+            "fontSize": { "phone": 12, "tablet": 18 },
+            "lineHeight": { "phone": 16, "tablet": 28 },
+            "marginTop": { "phone": 12, "tablet": 24 }
+          }
+        },
+        "actions": [
+          {
+            "id": "continue",
+            "type": "button",
+            "label": "Continue",
+            "style": "primary",
+            "disabledUntilValid": true
+          }
+        ],
+        "footer": {
+          "links": [
+            {
+              "text": "Closed Alpha FAQ",
+              "action": "open_url",
+              "url": "https://phynd.com/privacy"
+            },
+            {
+              "text": "View Terms of Service & Online Conduct Policy",
+              "action": "open_url",
+              "url": "https://phynd.com/terms"
+            }
+          ]
+        }
+      },
+
+      "onboarding_step2_name": {
+        "id": "onboarding_step2_name",
+        "type": "form",
+        "theme": "dark",
+        "header": {
+          "title": {
+            "text": "What's your name?",
+            "family": "Roboto-Bold",
+            "size": {
+              "phone": 24,
+              "tablet": 48
+            },
+            "weight": "700",
+            "style": "normal",
+            "color": {
+              "light": "#1B1D26",
+              "dark": "#ffffff"
+            }
+          },
+          "secondaryTitle": {
+            "text": "We'll use this to personalize your experience.",
+            "family": "Roboto-Regular",
+            "size": {
+              "phone": 14,
+              "tablet": 20
+            },
+            "weight": "400",
+            "style": "normal",
+            "color": {
+              "light": "#6B7280",
+              "dark": "#98989F"
+            }
+          }
+        },
+        "fields": [
+          {
+            "id": "first_name",
+            "type": "text",
+            "label": "First Name",
+            "placeholder": "First Name",
+            "required": true,
+            "validation": {
+              "minLength": 2,
+              "maxLength": 20,
+              "pattern": "^[a-zA-Z][a-zA-Z'.\\-’]*(?: [a-zA-Z'.\\-’]+)*$",
+              "errors": {
+                "required": "First name is required.",
+                "minLength": "Must be at least 2 characters.",
+                "maxLength": "Must be no more than 20 characters.",
+                "pattern": "Only letters, hyphens (-), apostrophes ('), periods (.), and single spaces between words are allowed."
+              }
+            }
+          },
+          {
+            "id": "last_name",
+            "type": "text",
+            "label": "Last Name",
+            "placeholder": "Last Name",
+            "required": false,
+            "visible": true,
+            "validation": {
+              "minLength": 2,
+              "maxLength": 20,
+              "pattern": "^[a-zA-Z][a-zA-Z'.\\-’]*(?: [a-zA-Z'.\\-’]+)*$",
+              "errors": {
+                "required": "Last name is required.",
+                "minLength": "Must be at least 2 characters.",
+                "maxLength": "Must be no more than 20 characters.",
+                "pattern": "Only letters, hyphens (-), apostrophes ('), periods (.), and single spaces between words are allowed."
+              }
+            }
+          }
+        ],
+        "layout": {
+          "typography": {
+            "heading": {
+              "size": { "phone": 24, "tablet": 48 },
+              "lineHeight": { "phone": 32, "tablet": 48 }
+            },
+            "subHeading": {
+              "size": { "phone": 14, "tablet": 20 },
+              "lineHeight": { "phone": 20, "tablet": 28 }
+            }
+          },
+          "gaps": {
+            "containerMt": { "phone": 16, "tablet": 32 },
+            "gapHeadingContent": { "phone": 32, "tablet": 32 }
+          }
+        },
+        "actions": [
+          {
+            "id": "continue",
+            "type": "button",
+            "label": "Continue",
+            "style": "primary",
+            "disabledUntilValid": true
+          }
+        ],
+        "footer": {
+          "links": [
+            {
+              "text": "Closed Alpha FAQ",
+              "action": "open_url",
+              "url": "https://phynd.com/privacy"
+            },
+            {
+              "text": "View Terms of Service & Online Conduct Policy",
+              "action": "open_url",
+              "url": "https://phynd.com/terms"
+            }
+          ]
+        }
+      },
+
+      "onboarding_step3_birthday": {
+        "id": "onboarding_step3_birthday",
+        "type": "form",
+        "theme": "dark",
+        "header": {
+          "title": {
+            "text": "Enter Birthday",
+            "family": "Roboto-Bold",
+            "size": {
+              "phone": 24,
+              "tablet": 48
+            },
+            "weight": "700",
+            "style": "normal",
+            "color": {
+              "light": "#1B1D26",
+              "dark": "#ffffff"
+            }
+          },
+          "secondaryTitle": {
+            "text": "You must be 18 years or older to join.",
+            "family": "Roboto-Regular",
+            "size": {
+              "phone": 14,
+              "tablet": 20
+            },
+            "weight": "400",
+            "style": "normal",
+            "color": {
+              "light": "#6B7280",
+              "dark": "#98989F"
+            }
+          }
+        },
+        "fields": [
+          {
+            "id": "birthday",
+            "type": "date_group",
+            "label": "Birthday",
+            "required": true,
+            "helperText": "must be 18+ to join PHYND",
+            "fields": [
+              {
+                "id": "birth_month",
+                "type": "dropdown",
+                "options": "months",
+                "placeholder": "Month"
+              },
+              {
+                "id": "birth_day",
+                "type": "dropdown",
+                "options": "days",
+                "placeholder": "Day"
+              },
+              {
+                "id": "birth_year",
+                "type": "dropdown",
+                "options": "years_18_plus",
+                "placeholder": "Year"
+              }
+            ],
+            "validation": {
+              "minAge": 18,
+              "errorMessage": "You must be 18 years or older to join PHYND"
+            }
+          }
+        ],
+        "layout": {
+          "typography": {
+            "heading": {
+              "size": { "phone": 24, "tablet": 48 },
+              "lineHeight": { "phone": 32, "tablet": 48 }
+            },
+            "subHeading": {
+              "size": { "phone": 14, "tablet": 20 },
+              "lineHeight": { "phone": 20, "tablet": 28 }
+            }
+          },
+          "gaps": {
+            "containerMt": { "phone": 16, "tablet": 32 },
+            "gapHeadingContent": { "phone": 32, "tablet": 32 }
+          }
+        },
+        "actions": [
+          {
+            "id": "continue",
+            "type": "button",
+            "label": "Continue",
+            "style": "primary",
+            "disabledUntilValid": true
+          }
+        ],
+        "footer": {
+          "links": [
+            {
+              "text": "Closed Alpha FAQ",
+              "action": "open_url",
+              "url": "https://phynd.com/privacy"
+            },
+            {
+              "text": "View Terms of Service & Online Conduct Policy",
+              "action": "open_url",
+              "url": "https://phynd.com/terms"
+            }
+          ]
+        }
+      },
+
+      "onboarding_step4_username": {
+        "id": "onboarding_step4_username",
+        "type": "form",
+        "theme": "dark",
+        "header": {
+          "title": {
+            "text": "Choose your username",
+            "family": "Roboto-Bold",
+            "size": {
+              "phone": 24,
+              "tablet": 48
+            },
+            "weight": "700",
+            "style": "normal",
+            "color": {
+              "light": "#1B1D26",
+              "dark": "#ffffff"
+            }
+          },
+          "secondaryTitle": {
+            "text": "This is how other players will see you in the app.",
+            "family": "Roboto-Regular",
+            "size": {
+              "phone": 14,
+              "tablet": 20
+            },
+            "weight": "400",
+            "style": "normal",
+            "color": {
+              "light": "#6B7280",
+              "dark": "#98989F"
+            }
+          }
+        },
+        "fields": [
+          {
+            "id": "username",
+            "type": "username",
+            "label": "Username",
+            "placeholder": "Enter your username",
+            "required": true,
+            "validation": {
+              "minLength": 2,
+              "maxLength": 18,
+              "mustContainLetter": true,
+              "allowedChars": "a-zA-Z0-9_\\-!?*.",
+              "errorMessages": {
+                "minLength": "Username must be at least 2 characters long.",
+                "maxLength": "Username must be no more than 18 characters long.",
+                "mustContainLetter": "Username must include at least one letter.",
+                "invalidChars": "Only letters, numbers, and _ - ! ? * . are allowed.",
+                "badWord": "This username contains inappropriate or reserved content. Please choose a different username.",
+                "reserved": "Username unavailable"
+              }
+            },
+            "ui": {
+              "showAvailabilityPill": true,
+              "showInlineRequirements": true
+            },
+            "modal": {
+              "id": "username_requirements_modal",
+              "title": "Username Info & Additional Requirements",
+              "items": [
+                "Alphanumeric (a-z, A-Z, 0-9)",
+                "No Offensive Content",
+                "No Reserved/Trademarked Words",
+                "Can be changed 3 times per year",
+                "Case Sensitive",
+                "Special characters are accepted"
+              ]
+            }
+          }
+        ],
+        "layout": {
+          "typography": {
+            "heading": {
+              "size": { "phone": 24, "tablet": 48 },
+              "lineHeight": { "phone": 32, "tablet": 48 }
+            },
+            "subHeading": {
+              "size": { "phone": 14, "tablet": 20 },
+              "lineHeight": { "phone": 20, "tablet": 28 }
+            }
+          },
+          "gaps": {
+            "containerMt": { "phone": 16, "tablet": 32 },
+            "gapHeadingContent": { "phone": 32, "tablet": 32 }
+          }
+        },
+        "actions": [
+          {
+            "id": "continue",
+            "type": "button",
+            "label": "Continue",
+            "style": "primary",
+            "disabledUntilValid": true
+          }
+        ],
+        "footer": {
+          "links": [
+            {
+              "text": "Closed Alpha FAQ",
+              "action": "open_url",
+              "url": "https://phynd.com/privacy"
+            },
+            {
+              "text": "View Terms of Service & Online Conduct Policy",
+              "action": "open_url",
+              "url": "https://phynd.com/terms"
+            }
+          ]
+        }
+      },
+
+      "onboarding_step5_avatar": {
+        "id": "onboarding_step5_avatar",
+        "type": "form",
+        "theme": "dark",
+        "header": {
+          "title": {
+            "text": "Pick your avatar",
+            "family": "Roboto-Bold",
+            "size": {
+              "phone": 24,
+              "tablet": 48
+            },
+            "weight": "700",
+            "style": "normal",
+            "color": {
+              "light": "#1B1D26",
+              "dark": "#ffffff"
+            }
+          },
+          "secondaryTitle": {
+            "text": "Choose an icon that represents you in the game.",
+            "family": "Roboto-Regular",
+            "size": {
+              "phone": 14,
+              "tablet": 20
+            },
+            "weight": "400",
+            "style": "normal",
+            "color": {
+              "light": "#6B7280",
+              "dark": "#98989F"
+            }
+          }
+        },
+        "fields": [
+          {
+            "id": "avatars",
+            "type": "avatars",
+            "label": "Profile Color",
+            "required": true,
+            "avatars": [
+              {
+                "id": 1,
+                "startColor": "#0282AF",
+                "endColor": "#FF5D60",
+                "assetKey": "ProfileColorFlatBlue"
+              },
+              {
+                "id": 2,
+                "startColor": "#6bcf7f",
+                "endColor": "#6bcf7f",
+                "assetKey": "ProfileColorFlatGreen"
+              },
+              {
+                "id": 3,
+                "startColor": "#8080ff",
+                "endColor": "#8080ff",
+                "assetKey": "ProfileColorFlatPurple"
+              },
+              {
+                "id": 4,
+                "startColor": "#008080",
+                "endColor": "#008080",
+                "assetKey": "ProfileColorFlatTeal"
+              },
+              {
+                "id": 5,
+                "startColor": "#ff8c42",
+                "endColor": "#ff8c42",
+                "assetKey": "ProfileColorFlatOrange"
+              },
+              {
+                "id": 6,
+                "startColor": "#ff6b6b",
+                "endColor": "#ff6b6b",
+                "assetKey": "ProfileColorFlatRed"
+              },
+              {
+                "id": 7,
+                "startColor": "#ffd93d",
+                "endColor": "#ffd93d",
+                "assetKey": "ProfileColorFlatYellow"
+              },
+              {
+                "id": 8,
+                "startColor": "#c0392b",
+                "endColor": "#1e3a8a",
+                "assetKey": "ProfileColorGradientDarkredBlue"
+              },
+              {
+                "id": 9,
+                "startColor": "#0282AF",
+                "endColor": "#0282AF",
+                "assetKey": "ProfileColorGradientBlueGreen"
+              },
+              {
+                "id": 10,
+                "startColor": "#8080ff",
+                "endColor": "#8080ff",
+                "assetKey": "ProfileColorGradientPurpleYellow"
+              },
+              {
+                "id": 11,
+                "startColor": "#1e3a8a",
+                "endColor": "#1e3a8a",
+                "assetKey": "ProfileColorGradientNavyPeach"
+              },
+              {
+                "id": 12,
+                "startColor": "#c084fc",
+                "endColor": "#c084fc",
+                "assetKey": "ProfileColorGradientPinkPurple"
+              },
+              {
+                "id": 13,
+                "startColor": "#6bcf7f",
+                "endColor": "#6bcf7f",
+                "assetKey": "ProfileColorGradientGreen"
+              },
+              {
+                "id": 14,
+                "startColor": "#ff6b6b",
+                "endColor": "#ff6b6b",
+                "assetKey": "ProfileColorGradientRedBlue"
+              },
+              {
+                "id": 15,
+                "startColor": "#ffd93d",
+                "endColor": "#ffd93d",
+                "assetKey": "ProfileColorGradientYellowOrange"
+              },
+              {
+                "id": 16,
+                "startColor": "#808080",
+                "endColor": "#808080",
+                "assetKey": "ProfileColorFlatGrey"
+              }
+            ]
+          }
+        ],
+        "layout": {
+          "typography": {
+            "heading": {
+              "size": { "phone": 24, "tablet": 48 },
+              "lineHeight": { "phone": 32, "tablet": 48 }
+            },
+            "subHeading": {
+              "size": { "phone": 14, "tablet": 20 },
+              "lineHeight": { "phone": 20, "tablet": 28 }
+            }
+          },
+          "gaps": {
+            "containerMt": { "phone": 16, "tablet": 32 },
+            "gapHeadingContent": { "phone": 32, "tablet": 32 }
+          }
+        },
+        "actions": [
+          {
+            "id": "complete",
+            "type": "button",
+            "label": "Complete Account Setup",
+            "style": "primary",
+            "disabledUntilValid": true
+          }
+        ],
+        "footer": {
+          "links": [
+            {
+              "text": "Closed Alpha FAQ",
+              "action": "open_url",
+              "url": "https://phynd.com/privacy"
+            },
+            {
+              "text": "View Terms of Service & Online Conduct Policy",
+              "action": "open_url",
+              "url": "https://phynd.com/terms"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "version": 143
+}
