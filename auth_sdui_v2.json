@@ -196,6 +196,29 @@
         "shadowOpacity": 0.2,
         "shadowOffset": { "width": 0, "height": 4 },
         "elevation": 4
+      },
+      "dropdown": {
+        "labelFontSize": { "phone": 14, "tablet": 16 },
+        "labelMarginBottom": 8,
+        "triggerHeight": { "phone": 48, "tablet": 58 },
+        "triggerBorderRadius": 12,
+        "triggerPaddingHorizontal": 16,
+        "triggerPaddingVertical": 14,
+        "triggerBorderWidth": 1,
+        "triggerFontSize": { "phone": 16, "tablet": 18 },
+        "triggerIconSize": 20,
+        "modalBorderRadius": 16,
+        "modalMaxHeight": 250,
+        "modalPadding": 8,
+        "modalBorderWidth": 1,
+        "modalShadowRadius": 8,
+        "modalShadowOpacity": 0.2,
+        "modalShadowOffset": { "width": 0, "height": 4 },
+        "modalElevation": 5,
+        "optionItemHeight": 49,
+        "optionItemPaddingVertical": 14,
+        "optionItemPaddingHorizontal": 16,
+        "optionItemFontSize": 16
       }
     },
     "initialScreen": "login",
@@ -1454,5 +1477,5 @@
       }
     }
   },
-  "version": 140
+  "version": 143
 }
