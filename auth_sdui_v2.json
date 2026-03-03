@@ -963,12 +963,12 @@
             "required": true,
             "validation": {
               "minLength": 2,
-              "maxLength": 8,
+              "maxLength": 20,
               "pattern": "^[a-zA-Z][a-zA-Z'.\\-’]*(?: [a-zA-Z'.\\-’]+)*$",
               "errors": {
                 "required": "First name is required.",
                 "minLength": "Must be at least 2 characters.",
-                "maxLength": "Must be no more than 8 characters.",
+                "maxLength": "Must be no more than 20 characters.",
                 "pattern": "Only letters, hyphens (-), apostrophes ('), periods (.), and single spaces between words are allowed."
               }
             }
@@ -982,12 +982,12 @@
             "visible": true,
             "validation": {
               "minLength": 2,
-              "maxLength": 8,
+              "maxLength": 20,
               "pattern": "^[a-zA-Z][a-zA-Z'.\\-’]*(?: [a-zA-Z'.\\-’]+)*$",
               "errors": {
                 "required": "Last name is required.",
                 "minLength": "Must be at least 2 characters.",
-                "maxLength": "Must be no more than 8 characters.",
+                "maxLength": "Must be no more than 20 characters.",
                 "pattern": "Only letters, hyphens (-), apostrophes ('), periods (.), and single spaces between words are allowed."
               }
             }
@@ -1054,7 +1054,7 @@
             }
           },
           "secondaryTitle": {
-            "text": "You must be 14 years or older to join.",
+            "text": "You must be 18 years or older to join.",
             "family": "Roboto-Regular",
             "size": {
               "phone": 14,
@@ -1074,7 +1074,7 @@
             "type": "date_group",
             "label": "Birthday",
             "required": true,
-            "helperText": "must be 14+ to join PHYND",
+            "helperText": "must be 18+ to join PHYND",
             "fields": [
               {
                 "id": "birth_month",
@@ -1091,13 +1091,13 @@
               {
                 "id": "birth_year",
                 "type": "dropdown",
-                "options": "years_14_plus",
+                "options": "years_18_plus",
                 "placeholder": "Year"
               }
             ],
             "validation": {
-              "minAge": 14,
-              "errorMessage": "You must be 14 years or older to join PHYND"
+              "minAge": 18,
+              "errorMessage": "You must be 18 years or older to join PHYND"
             }
           }
         ],
@@ -1438,5 +1438,5 @@
       }
     }
   },
-  "version": 138
+  "version": 140
 }
