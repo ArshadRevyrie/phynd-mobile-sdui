@@ -182,7 +182,7 @@
           }
         },
         "headerTitle": {
-          "family": "Roboto-Bold",
+          "family": "Roboto-Regular",
           "size": { "phone": 24, "tablet": 48 },
           "weight": "700",
           "style": "italic",
@@ -1502,5 +1502,5 @@
       }
     }
   },
-  "version": 156
+  "version": 157
 }
