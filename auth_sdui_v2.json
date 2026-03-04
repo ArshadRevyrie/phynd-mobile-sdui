@@ -182,10 +182,10 @@
           }
         },
         "headerTitle": {
-          "family": "Roboto-Regular",
-          "size": { "phone": 24, "tablet": 48 },
-          "weight": "400",
-          "style": "italic",
+          "family": "Roboto-Bold",
+          "size": 24,
+          "weight": "700",
+          "style": "normal",
           "color": {
             "light": "#1B1D26",
             "dark": "#E0E0E0"
@@ -309,7 +309,7 @@
             }
           },
           "title": {
-            "text": "Welcome",
+            "text": "Welcome to PHYND",
             "family": "Roboto-Medium",
             "size": {
               "phone": 24,
@@ -367,7 +367,7 @@
           {
             "id": "get_started",
             "type": "button",
-            "label": "Create an Account",
+            "label": "Get Started",
             "style": "primary",
             "onPress": {
               "type": "navigate",
@@ -388,12 +388,12 @@
         "footer": {
           "links": [
             {
-              "text": "",
+              "text": "Closed Alpha FAQ",
               "action": "open_url",
               "url": "https://phynd.com/privacy"
             },
             {
-              "text": "",
+              "text": "View Terms of Service & Online Conduct Policy",
               "action": "open_url",
               "url": "https://phynd.com/terms"
             }
@@ -1055,6 +1055,25 @@
                 "pattern": "Only letters, hyphens (-), apostrophes ('), periods (.), and single spaces between words are allowed."
               }
             }
+          },
+          {
+            "id": "last_name",
+            "type": "text",
+            "label": "Last Name",
+            "placeholder": "Last Name",
+            "required": false,
+            "visible": true,
+            "validation": {
+              "minLength": 2,
+              "maxLength": 20,
+              "pattern": "^[a-zA-Z][a-zA-Z'.\\-’]*(?: [a-zA-Z'.\\-’]+)*$",
+              "errors": {
+                "required": "Last name is required.",
+                "minLength": "Must be at least 2 characters.",
+                "maxLength": "Must be no more than 20 characters.",
+                "pattern": "Only letters, hyphens (-), apostrophes ('), periods (.), and single spaces between words are allowed."
+              }
+            }
           }
         ],
         "layout": {
@@ -1118,7 +1137,7 @@
             }
           },
           "secondaryTitle": {
-            "text": "You must be 14 years or older to join.",
+            "text": "You must be 18 years or older to join.",
             "family": "Roboto-Regular",
             "size": {
               "phone": 14,
@@ -1138,7 +1157,7 @@
             "type": "date_group",
             "label": "Birthday",
             "required": true,
-            "helperText": "must be 14+ to join PHYND",
+            "helperText": "must be 18+ to join PHYND",
             "fields": [
               {
                 "id": "birth_month",
@@ -1160,8 +1179,8 @@
               }
             ],
             "validation": {
-              "minAge": 14,
-              "errorMessage": "You must be 14 years or older to join PHYND"
+              "minAge": 18,
+              "errorMessage": "You must be 18 years or older to join PHYND"
             }
           }
         ],
@@ -1213,12 +1232,12 @@
         "header": {
           "title": {
             "text": "Choose your username",
-            "family": "Roboto-Regular",
+            "family": "Roboto-Bold",
             "size": {
               "phone": 24,
               "tablet": 48
             },
-            "weight": "400",
+            "weight": "700",
             "style": "normal",
             "color": {
               "light": "#1B1D26",
@@ -1502,5 +1521,5 @@
       }
     }
   },
-  "version": 158
+  "version": 159
 }
