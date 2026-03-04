@@ -4,7 +4,7 @@
       "colors": {
         "background": {
           "light": "#FFFFFF",
-          "dark": "#1B1D26"
+          "dark": "#000000"
         },
         "content": {
           "light": "#1B1D26",
@@ -1492,5 +1492,5 @@
       }
     }
   },
-  "version": 153
+  "version": 154
 }
