@@ -184,7 +184,7 @@
         "headerTitle": {
           "family": "Roboto-Regular",
           "size": { "phone": 24, "tablet": 48 },
-          "weight": "700",
+          "weight": "400",
           "style": "italic",
           "color": {
             "light": "#1B1D26",
@@ -1502,5 +1502,5 @@
       }
     }
   },
-  "version": 157
+  "version": 158
 }
