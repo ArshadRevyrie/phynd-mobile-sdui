@@ -185,7 +185,7 @@
           "family": "Roboto-Bold",
           "size": { "phone": 24, "tablet": 48 },
           "weight": "700",
-          "style": "normal",
+          "style": "italic",
           "color": {
             "light": "#1B1D26",
             "dark": "#E0E0E0"
@@ -1502,5 +1502,5 @@
       }
     }
   },
-  "version": 155
+  "version": 156
 }
