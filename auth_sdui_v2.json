@@ -4,7 +4,7 @@
       "colors": {
         "background": {
           "light": "#FFFFFF",
-          "dark": "#000000"
+          "dark": "#1B1D26"
         },
         "content": {
           "light": "#1B1D26",
@@ -183,12 +183,22 @@
         },
         "headerTitle": {
           "family": "Roboto-Bold",
-          "size": 24,
+          "size": { "phone": 24, "tablet": 48 },
           "weight": "700",
           "style": "normal",
           "color": {
             "light": "#1B1D26",
             "dark": "#E0E0E0"
+          }
+        },
+        "headerSecondaryTitle": {
+          "family": "Roboto-Regular",
+          "size": { "phone": 14, "tablet": 20 },
+          "weight": "400",
+          "style": "normal",
+          "color": {
+            "light": "#6B7280",
+            "dark": "#98989F"
           }
         },
         "hyperlink": {
@@ -1492,5 +1502,5 @@
       }
     }
   },
-  "version": 154
+  "version": 155
 }
