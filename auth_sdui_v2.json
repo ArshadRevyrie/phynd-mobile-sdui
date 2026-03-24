@@ -182,10 +182,10 @@
           }
         },
         "headerTitle": {
-          "family": "Roboto-Regular",
+          "family": "Roboto-Bold",
           "size": { "phone": 24, "tablet": 48 },
           "weight": "400",
-          "style": "italic",
+          "style": "normal",
           "color": {
             "light": "#1B1D26",
             "dark": "#E0E0E0"
@@ -367,7 +367,7 @@
           {
             "id": "get_started",
             "type": "button",
-            "label": "Create an Account",
+            "label": "Sign Up",
             "style": "primary",
             "onPress": {
               "type": "navigate",
@@ -377,7 +377,7 @@
           {
             "id": "already_have_account",
             "type": "button",
-            "label": "I Already Have an Account",
+            "label": "Log In",
             "style": "secondary",
             "onPress": {
               "type": "navigate",
@@ -1668,5 +1668,5 @@
       }
     }
   },
-  "version": 161
+  "version": 162
 }
