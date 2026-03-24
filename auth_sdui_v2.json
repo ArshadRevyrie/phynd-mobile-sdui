@@ -388,12 +388,12 @@
         "footer": {
           "links": [
             {
-              "text": "",
+              "text": "Closed Alpha FAQ",
               "action": "open_url",
               "url": "https://phynd.com/privacy"
             },
             {
-              "text": "",
+              "text": "View Terms of Service & Online Conduct Policy",
               "action": "open_url",
               "url": "https://phynd.com/terms"
             }
@@ -1668,5 +1668,5 @@
       }
     }
   },
-  "version": 160
+  "version": 161
 }
