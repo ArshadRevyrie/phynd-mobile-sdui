@@ -1055,7 +1055,26 @@
                 "pattern": "Only letters, hyphens (-), apostrophes ('), periods (.), and single spaces between words are allowed."
               }
             }
+          },
+          {
+            "id": "last_name",
+            "type": "text",
+            "label": "Last Name",
+            "placeholder": "Last Name",
+            "required": true,
+            "validation": {
+              "minLength": 2,
+              "maxLength": 20,
+              "pattern": "^[a-zA-Z][a-zA-Z'.\\-’]*(?: [a-zA-Z'.\\-’]+)*$",
+              "errors": {
+                "required": "Last name is required.",
+                "minLength": "Must be at least 2 characters.",
+                "maxLength": "Must be no more than 20 characters.",
+                "pattern": "Only letters, hyphens (-), apostrophes ('), periods (.), and single spaces between words are allowed."
+              }
+            }
           }
+
         ],
         "layout": {
           "typography": {
@@ -1668,5 +1687,5 @@
       }
     }
   },
-  "version": 162
+  "version": 163
 }
